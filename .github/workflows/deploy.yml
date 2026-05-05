@@ -1,0 +1,35 @@
+name: Deploy to Vercel
+
+# Triggers a Vercel production deploy via deploy hook on every push to main.
+# This sidesteps Vercel Hobby's "team configuration" check that blocks
+# deploys from any Git author who isn't the project owner — both Patrick
+# and Josephine can push, and the site deploys regardless of author.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+# One in-flight deploy at a time. If a second push lands while one is
+# running, queue it and skip any earlier queued one (we only need the
+# latest).
+concurrency:
+  group: vercel-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deploy hook
+        run: |
+          response="$(curl -sS -o /tmp/body -w '%{http_code}' -X POST "$VERCEL_DEPLOY_HOOK_URL")"
+          echo "HTTP $response"
+          cat /tmp/body
+          # Vercel returns 201 on success
+          if [ "$response" != "201" ] && [ "$response" != "200" ]; then
+            echo "::error::Deploy hook returned HTTP $response"
+            exit 1
+          fi
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
