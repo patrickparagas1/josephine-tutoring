@@ -1,0 +1,89 @@
+name: Daily digest
+
+on:
+  schedule:
+    # 9:00 AM Pacific (17:00 UTC during DST, 16:00 UTC otherwise — picking 17:00 covers most of the year)
+    - cron: "0 17 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build digest
+        id: build
+        shell: bash
+        run: |
+          since="$(date -u -d '24 hours ago' '+%Y-%m-%dT%H:%M:%SZ' 2>/dev/null || date -u -v-1d '+%Y-%m-%dT%H:%M:%SZ')"
+          commits="$(git log --since="$since" --no-merges --pretty=format:'- **%an** · %ar%n  %s%n' || true)"
+          files="$(git log --since="$since" --no-merges --pretty=format: --name-only | sort -u | sed '/^$/d' | head -20 || true)"
+          authors="$(git log --since="$since" --no-merges --pretty=format:'%an' | sort -u | tr '\n' ',' | sed 's/,$//' || true)"
+          count="$(git log --since="$since" --no-merges --oneline | wc -l | tr -d ' ')"
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          {
+            echo "commits<<COMMITS_EOF"
+            if [ -z "$commits" ]; then
+              echo "_No changes in the last 24 hours. Quiet day._"
+            else
+              echo "$commits"
+            fi
+            echo "COMMITS_EOF"
+            echo "files<<FILES_EOF"
+            if [ -z "$files" ]; then
+              echo "_(no files)_"
+            else
+              echo "$files"
+            fi
+            echo "FILES_EOF"
+            echo "authors=${authors:-no one}"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Open digest issue
+        uses: actions/github-script@v7
+        env:
+          COMMITS: ${{ steps.build.outputs.commits }}
+          FILES: ${{ steps.build.outputs.files }}
+          AUTHORS: ${{ steps.build.outputs.authors }}
+          COUNT: ${{ steps.build.outputs.count }}
+        with:
+          script: |
+            const today = new Date().toLocaleDateString("en-US", {
+              year: "numeric", month: "long", day: "numeric",
+              timeZone: "America/Los_Angeles",
+            });
+            const count = process.env.COUNT;
+            const authors = process.env.AUTHORS;
+            const title = `Daily digest · ${today} · ${count} commit${count === '1' ? '' : 's'}`;
+            const body = [
+              `## What changed in the last 24 hours`,
+              ``,
+              `**Authors:** ${authors}`,
+              ``,
+              `### Commits`,
+              ``,
+              process.env.COMMITS,
+              ``,
+              `### Files touched`,
+              ``,
+              "```",
+              process.env.FILES,
+              "```",
+              ``,
+              `_Auto-generated each morning at 9am Pacific. Manage notifications in your repo Watch settings._`,
+            ].join("\n");
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ["daily-digest"],
+            });
