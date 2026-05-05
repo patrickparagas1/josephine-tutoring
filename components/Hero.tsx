@@ -35,7 +35,7 @@ export default function Hero() {
           src="/josephine-photo.jpg"
           alt="Josephine, private tutor in Irvine"
           fill
-          sizes="(max-width: 1100px) 100vw, 400px"
+          sizes="(max-width: 1100px) 100vw, 340px"
           quality={95}
           priority
         />

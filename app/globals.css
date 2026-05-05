@@ -447,7 +447,7 @@ nav {
 .hero-visual {
   position: relative;
   aspect-ratio: 4 / 5;
-  max-width: 400px;
+  max-width: 340px;
   width: 100%;
   margin-top: 2rem;
   overflow: hidden;
@@ -511,7 +511,7 @@ section {
 }
 .about-grid {
   display: grid;
-  grid-template-columns: 0.72fr 1.28fr;
+  grid-template-columns: 0.6fr 1.4fr;
   gap: 5rem;
   max-width: 1200px;
   margin: 0 auto;
