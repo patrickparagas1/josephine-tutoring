@@ -11,7 +11,8 @@ export default function About() {
               alt="Josephine, private tutor in Irvine"
               fill
               className="portrait"
-              sizes="(max-width: 900px) 320px, 40vw"
+              sizes="(max-width: 900px) 280px, 35vw"
+              quality={95}
               priority
             />
           </div>
