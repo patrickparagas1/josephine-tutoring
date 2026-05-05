@@ -29,10 +29,14 @@ body {
   font-family: var(--font-inter-tight), sans-serif;
   background-color: var(--cream);
   background-image:
-    linear-gradient(rgba(253, 247, 222, 0.78), rgba(253, 247, 222, 0.78)),
+    linear-gradient(
+      rgba(253, 247, 222, 0.68) 0%,
+      rgba(253, 247, 222, 0.62) 40%,
+      rgba(253, 247, 222, 0.6) 100%
+    ),
     url('/backdrop.jpg');
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: var(--ink);
