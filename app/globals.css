@@ -28,15 +28,19 @@ html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
 body {
   font-family: var(--font-inter-tight), sans-serif;
   background-color: var(--cream);
+  /* Layered overlay so the photo blends with the cream/sage palette
+     instead of fighting it: warmer cream wash on top, lighter at the
+     middle/bottom so the sage-toned ocean comes through softly. */
   background-image:
     linear-gradient(
-      rgba(253, 247, 222, 0.68) 0%,
-      rgba(253, 247, 222, 0.62) 40%,
-      rgba(253, 247, 222, 0.6) 100%
+      rgba(253, 247, 222, 0.78) 0%,
+      rgba(253, 247, 222, 0.62) 35%,
+      rgba(253, 247, 222, 0.55) 70%,
+      rgba(253, 247, 222, 0.62) 100%
     ),
     url('/backdrop.jpg');
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: var(--ink);
