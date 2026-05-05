@@ -13,7 +13,7 @@ const TESTIMONIALS: Quote[] = [
   {
     id: "art",
     text: "Your classes expand his view of art and teach him about aesthetics and culture.",
-    author: "Parent, Irvine",
+    author: "Parent, NorCal",
   },
   {
     id: "identity",
@@ -38,7 +38,7 @@ const TESTIMONIALS: Quote[] = [
   {
     id: "potential",
     text: "You brought out their inner potential and interest, not only in language but in creative projects.",
-    author: "Parent, Irvine",
+    author: "Parent, South Korea",
   },
 ];
 
