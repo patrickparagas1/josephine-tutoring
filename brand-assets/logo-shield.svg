@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="16 9 32 47" width="640" height="940">
+  
+    <defs>
+      <clipPath id="shield-clip-standalone">
+        <path d="M 18 14 Q 22 10 26 13 Q 29 10 32 13 Q 35 10 38 13 Q 42 10 46 14 L 46 32 C 46 42 40 50 32 54 C 24 50 18 42 18 32 Z"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#shield-clip-standalone)">
+      <rect x="18" y="12" width="28" height="44" fill="#0f2547"/>
+      <rect x="22" y="12" width="2" height="44" fill="#1a3a6b" fill-opacity="0.85"/>
+      <rect x="40" y="12" width="2" height="44" fill="#1a3a6b" fill-opacity="0.85"/>
+      <rect x="31" y="12" width="2" height="44" fill="#2d5a3d" fill-opacity="0.88"/>
+      <rect x="18" y="18" width="28" height="2" fill="#06162f" fill-opacity="0.8"/>
+      <rect x="18" y="42" width="28" height="2" fill="#06162f" fill-opacity="0.8"/>
+      <rect x="18" y="30" width="28" height="2" fill="#7a2432" fill-opacity="0.85"/>
+      <rect x="18" y="24" width="28" height="0.6" fill="#c9a34a" fill-opacity="0.5"/>
+      <rect x="35" y="12" width="0.6" height="44" fill="#c9a34a" fill-opacity="0.4"/>
+      <line x1="26" y1="12" x2="26" y2="56" stroke="#f5efe1" stroke-width="0.3" stroke-opacity="0.28"/>
+      <line x1="35" y1="12" x2="35" y2="56" stroke="#f5efe1" stroke-width="0.3" stroke-opacity="0.28"/>
+      <line x1="18" y1="24" x2="46" y2="24" stroke="#f5efe1" stroke-width="0.3" stroke-opacity="0.28"/>
+      <line x1="18" y1="36" x2="46" y2="36" stroke="#f5efe1" stroke-width="0.3" stroke-opacity="0.28"/>
+      <line x1="18" y1="48" x2="46" y2="48" stroke="#f5efe1" stroke-width="0.3" stroke-opacity="0.28"/>
+    </g>
+    <path d="M 18 14 Q 22 10 26 13 Q 29 10 32 13 Q 35 10 38 13 Q 42 10 46 14 L 46 32 C 46 42 40 50 32 54 C 24 50 18 42 18 32 Z" fill="none" stroke="#06162f" stroke-width="1.8"/>
+    <text x="32" y="40" text-anchor="middle"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-style="italic" font-weight="600" font-size="20"
+      fill="#d4b05b" stroke="#06162f" stroke-width="0.5"
+      paint-order="stroke fill">J</text>
+  
+</svg>

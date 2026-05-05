@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Josephine Tutoring — Flyer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page {
+    size: letter;
+    margin: 0.5in;
+  }
+  body {
+    font-family: 'Inter Tight', sans-serif;
+    background: #6b7388;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .flyer {
+    width: 7.5in;
+    height: 10in;
+    background: #f5efe1;
+    padding: 0.55in 0.6in;
+    position: relative;
+    overflow: hidden;
+    color: #0f2547;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Paper texture */
+  .flyer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.45;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+  }
+
+  /* Big ornament background */
+  .big-ornament {
+    position: absolute;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 28rem;
+    color: #2e5aa7;
+    opacity: 0.07;
+    top: -4rem;
+    right: -3rem;
+    line-height: 0.8;
+    pointer-events: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.22in;
+    position: relative;
+    z-index: 2;
+  }
+  .logo-mark {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .logo-mark::before {
+    content: '✦ ';
+    font-style: normal;
+    color: #2e5aa7;
+  }
+  .header-right {
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #8a7f6a;
+    text-align: right;
+    line-height: 1.6;
+  }
+
+  .eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #2e5aa7;
+    margin-bottom: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    z-index: 2;
+  }
+  .eyebrow::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #d6c9a8;
+  }
+
+  .headline {
+    font-family: 'Lora', 'Fraunces', serif;
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.75rem;
+    position: relative;
+    z-index: 2;
+  }
+  .headline em {
+    font-style: italic;
+    color: #2e5aa7;
+    font-weight: 300;
+  }
+
+  .subhead {
+    font-family: 'Lora', 'Fraunces', serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #2c406b;
+    margin-bottom: 1rem;
+    max-width: 94%;
+    line-height: 1.3;
+    position: relative;
+    z-index: 2;
+  }
+
+  .subjects-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin: 0.6rem 0;
+    position: relative;
+    z-index: 2;
+  }
+  .subject-box {
+    background: rgba(15, 30, 58, 0.04);
+    border-left: 3px solid #2d5a3d;
+    padding: 0.55rem 0.8rem;
+  }
+  .subject-title {
+    font-family: 'Lora', 'Fraunces', serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+  }
+  .subject-list {
+    font-size: 0.7rem;
+    color: #8a7f6a;
+    line-height: 1.45;
+  }
+
+  .divider {
+    height: 1px;
+    background: #d6c9a8;
+    margin: 0.7rem 0;
+    position: relative;
+    z-index: 2;
+  }
+  .divider::before {
+    content: '❦';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f5efe1;
+    padding: 0 0.75rem;
+    color: #6d8fc6;
+    font-size: 0.9rem;
+  }
+
+  .highlights {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+    margin: 0.5rem 0;
+    position: relative;
+    z-index: 2;
+  }
+  .highlight {
+    text-align: center;
+    flex: 1;
+  }
+  .highlight-icon {
+    font-family: 'Fraunces', serif;
+    font-size: 1.7rem;
+    font-style: italic;
+    color: #2e5aa7;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+  .highlight-label {
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #0f2547;
+    font-weight: 500;
+  }
+  .highlight-sub {
+    font-size: 0.7rem;
+    color: #8a7f6a;
+    margin-top: 0.2rem;
+  }
+
+  .free-banner {
+    background: #0f2547;
+    color: #f5efe1;
+    padding: 0.7rem 1.1rem;
+    margin: 0.7rem 0 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+  .free-text {
+    font-family: 'Fraunces', serif;
+    font-size: 1.15rem;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .free-text strong {
+    font-weight: 600;
+    font-style: normal;
+    color: #6d8fc6;
+  }
+  .free-arrow {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: #6d8fc6;
+  }
+
+  .footer-block {
+    margin-top: auto;
+    position: relative;
+    z-index: 2;
+  }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.65rem 0;
+    border-top: 2px solid #0f2547;
+    border-bottom: 2px solid #0f2547;
+  }
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-label {
+    font-size: 0.63rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #8a7f6a;
+    margin-bottom: 0.2rem;
+  }
+  .contact-value {
+    font-family: 'Fraunces', serif;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .bottom-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.7rem;
+    font-size: 0.68rem;
+    color: #8a7f6a;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .serving em {
+    font-family: 'Fraunces', serif;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #0f2547;
+    font-size: 0.92rem;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .flyer { box-shadow: none; margin: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="flyer">
+  <div class="big-ornament">&amp;</div>
+
+  <div class="header">
+    <div class="logo-mark">Josephine</div>
+    <div class="header-right">
+      Private Tutoring<br>
+      Irvine · California
+    </div>
+  </div>
+
+  <div class="eyebrow">Kindergarten through 12th · Private</div>
+
+  <h1 class="headline">
+    Patient help for<br>
+    <em>every</em> kind of<br>
+    learner.
+  </h1>
+
+  <p class="subhead">
+    Academic subjects. Test prep. Creative projects. College applications. At your home, the library, or online.
+  </p>
+
+  <div class="subjects-row">
+    <div class="subject-box">
+      <div class="subject-title">Elementary · Grades K to 5</div>
+      <div class="subject-list">Reading · Writing · Math foundations · Homework help</div>
+    </div>
+    <div class="subject-box">
+      <div class="subject-title">Middle · Grades 6 to 8</div>
+      <div class="subject-list">Prealgebra · Algebra · Essays · Study skills</div>
+    </div>
+    <div class="subject-box">
+      <div class="subject-title">High · Grades 9 to 12</div>
+      <div class="subject-list">Algebra · Precalculus · English · Science &amp; history</div>
+    </div>
+    <div class="subject-box">
+      <div class="subject-title">Creative &amp; College</div>
+      <div class="subject-list">Application essays · Writing competitions · Art portfolios · SAT &amp; ACT prep</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="highlights">
+    <div class="highlight">
+      <div class="highlight-icon">1:1</div>
+      <div class="highlight-label">Private</div>
+      <div class="highlight-sub">Every session is yours</div>
+    </div>
+    <div class="highlight">
+      <div class="highlight-icon">✦</div>
+      <div class="highlight-label">Flexible</div>
+      <div class="highlight-sub">At home or online</div>
+    </div>
+    <div class="highlight">
+      <div class="highlight-icon">❋</div>
+      <div class="highlight-label">No contracts</div>
+      <div class="highlight-sub">Pay per session</div>
+    </div>
+    <div class="highlight">
+      <div class="highlight-icon">♡</div>
+      <div class="highlight-label">Patient</div>
+      <div class="highlight-sub">Built around your student</div>
+    </div>
+  </div>
+
+  <div class="free-banner">
+    <div class="free-text">
+      First <strong>15 minute consultation</strong> is always free.
+    </div>
+    <div class="free-arrow">→</div>
+  </div>
+
+  <div class="footer-block">
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="contact-label">Email</div>
+        <div class="contact-value">josephinethetutor@gmail.com</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-label">Text or call</div>
+        <div class="contact-value">949.393.9913</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-label">Book online</div>
+        <div class="contact-value">cal.com/josephine&#8203;the&#8203;tutor</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-label">Website</div>
+        <div class="contact-value">josephinethetutor.com</div>
+      </div>
+    </div>
+
+    <div class="bottom-line">
+      <div class="serving">Serving <em>Irvine, Tustin, and Newport Beach</em></div>
+      <div>Private · Since 2026</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
