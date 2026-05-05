@@ -23,7 +23,7 @@ const TESTIMONIALS: Quote[] = [
   {
     id: "warm",
     text: "So warm, patient, and kind. It meant a lot to us during a tough week.",
-    author: "Parent, Irvine",
+    author: "Parent, Lake Forest",
   },
   {
     id: "progress",
