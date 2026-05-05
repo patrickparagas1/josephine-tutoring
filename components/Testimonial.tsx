@@ -33,7 +33,7 @@ const TESTIMONIALS: Quote[] = [
   {
     id: "video",
     text: "She got very interested in the video making process after the last workshop. She's enjoying it so much.",
-    author: "Parent, Irvine",
+    author: "Parent, NorCal",
   },
   {
     id: "potential",
