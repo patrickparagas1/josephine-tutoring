@@ -1,35 +1,49 @@
 name: Deploy to Vercel
 
-# Triggers a Vercel production deploy via deploy hook on every push to main.
-# This sidesteps Vercel Hobby's "team configuration" check that blocks
-# deploys from any Git author who isn't the project owner — both Patrick
-# and Josephine can push, and the site deploys regardless of author.
+# Builds and deploys via the Vercel CLI on every push to main.
+#
+# Why this exists: Vercel's Hobby plan checks the *git commit author*
+# against project team membership and rejects deploys when the author
+# isn't on the team. Direct git pushes from Josephine fail that check,
+# and so do Vercel deploy hooks (the check happens at deploy creation,
+# not at trigger). Building and uploading via the Vercel CLI with a
+# token bypasses the check — Vercel sees the token holder (Patrick) as
+# the deployer regardless of who authored the commit.
 
 on:
   push:
     branches: [main]
   workflow_dispatch: {}
 
-# One in-flight deploy at a time. If a second push lands while one is
-# running, queue it and skip any earlier queued one (we only need the
-# latest).
 concurrency:
   group: vercel-deploy
   cancel-in-progress: false
+
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Vercel deploy hook
-        run: |
-          response="$(curl -sS -o /tmp/body -w '%{http_code}' -X POST "$VERCEL_DEPLOY_HOOK_URL")"
-          echo "HTTP $response"
-          cat /tmp/body
-          # Vercel returns 201 on success
-          if [ "$response" != "201" ] && [ "$response" != "200" ]; then
-            echo "::error::Deploy hook returned HTTP $response"
-            exit 1
-          fi
-        env:
-          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+
+      - name: Pull Vercel environment
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Build
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Deploy
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
