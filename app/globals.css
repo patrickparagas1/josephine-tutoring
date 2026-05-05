@@ -29,8 +29,8 @@ body {
   font-family: var(--font-inter-tight), sans-serif;
   background-color: var(--cream);
   background-image:
-    linear-gradient(rgba(253, 247, 222, 0.84), rgba(253, 247, 222, 0.84)),
-    url('/photos/middle-school.jpg');
+    linear-gradient(rgba(253, 247, 222, 0.78), rgba(253, 247, 222, 0.78)),
+    url('/backdrop.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
