@@ -18,7 +18,7 @@ const TESTIMONIALS: Quote[] = [
   {
     id: "identity",
     text: "Our kids had so much fun exploring ideas of identity, belonging, and diversity. You helped them think about themselves and their own history.",
-    author: "Parent, Irvine",
+    author: "Parent, NorCal",
   },
   {
     id: "warm",
