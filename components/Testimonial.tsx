@@ -8,7 +8,7 @@ const TESTIMONIALS: Quote[] = [
   {
     id: "fun",
     text: "My son has so much fun in your classes. Thank you for teaching him so much. We hope he can keep working with you.",
-    author: "Parent, Irvine",
+    author: "Parent, NorCal",
   },
   {
     id: "art",
