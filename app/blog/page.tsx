@@ -16,6 +16,7 @@ export default function BlogIndex() {
   return (
     <>
       <Nav />
+      <Testimonial ids={["video", "potential"]} />
       <main id="main-content" className="blog-wrap">
         <div className="blog-inner">
           <div className="section-eyebrow">Notes &amp; guides</div>
@@ -42,7 +43,6 @@ export default function BlogIndex() {
           )}
         </div>
       </main>
-      <Testimonial ids={["identity"]} />
       <Footer />
     </>
   );

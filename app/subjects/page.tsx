@@ -14,11 +14,10 @@ export default function SubjectsPage() {
   return (
     <>
       <Nav />
-      <Testimonial ids={["art"]} />
-      <main id="main-content" style={{ paddingTop: "9rem" }}>
+      <Testimonial ids={["art", "potential"]} />
+      <main id="main-content">
         <Services />
       </main>
-      <Testimonial ids={["video"]} />
       <Footer />
     </>
   );

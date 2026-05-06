@@ -347,7 +347,7 @@ nav {
 /* HERO (centered elite layout) */
 .hero {
   min-height: auto;
-  padding: 10rem 3rem 5rem;
+  padding: 4rem 3rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1123,7 +1123,7 @@ footer em,
 /* Tablet */
 @media (max-width: 1100px) {
   .hero {
-    padding: 8rem 2rem 4rem;
+    padding: 3rem 2rem 4rem;
   }
   .hero-visual {
     max-width: 380px;
@@ -1187,7 +1187,7 @@ footer em,
     background: var(--cream);
   }
   .hero {
-    padding: 9rem 1.5rem 3rem;
+    padding: 2.5rem 1.5rem 3rem;
     gap: 1.5rem;
   }
   .hero-visual { max-width: 320px; }
@@ -1245,7 +1245,7 @@ footer em,
 /* BLOG */
 .blog-wrap,
 .post-wrap {
-  padding: 9rem 3rem 6rem;
+  padding: 3rem 3rem 6rem;
   position: relative;
   z-index: 2;
 }
@@ -1720,4 +1720,54 @@ footer em,
           margin-top: 0;
           flex-shrink: 0;
     }
+}
+
+/* TESTIMONIAL BANNER — compact 2-quote header strip */
+.testimonial-banner {
+  /* clears the fixed nav (~5rem tall) and gives a small breathing room */
+  padding: calc(5rem + 1.25rem) 2rem 1.5rem;
+  background: rgba(253, 247, 222, 0.75);
+  border-bottom: 1px solid var(--line);
+  position: relative;
+  z-index: 2;
+}
+.testimonial-banner-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+.testimonial-banner-quote {
+  text-align: center;
+}
+.testimonial-banner-quote blockquote {
+  font-family: var(--font-fraunces), serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--ink);
+  max-width: 50ch;
+  margin: 0 auto;
+}
+.testimonial-banner-quote figcaption {
+  font-family: var(--font-inter-tight), sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 0.55rem;
+}
+@media (max-width: 800px) {
+  .testimonial-banner {
+    padding: calc(4.5rem + 1rem) 1.25rem 1.25rem;
+  }
+  .testimonial-banner-inner {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .testimonial-banner-quote blockquote {
+    font-size: 0.9rem;
+  }
 }

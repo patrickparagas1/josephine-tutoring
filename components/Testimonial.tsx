@@ -43,36 +43,29 @@ const TESTIMONIALS: Quote[] = [
 ];
 
 type Props = {
-  /** IDs of which testimonials to show (1 or 2). Falls back to the first one. */
-  ids?: [string] | [string, string];
+  /** IDs of the two testimonials to show side-by-side as a banner. */
+  ids?: [string, string];
 };
 
 export default function Testimonial({ ids }: Props) {
-  const items: Quote[] = ids
-    ? (ids
-        .map((id) => TESTIMONIALS.find((t) => t.id === id))
-        .filter(Boolean) as Quote[])
-    : TESTIMONIALS.slice(0, 1);
+  const pickedIds: [string, string] = ids ?? ["fun", "warm"];
+  const items: Quote[] = pickedIds
+    .map((id) => TESTIMONIALS.find((t) => t.id === id))
+    .filter(Boolean) as Quote[];
 
-  if (items.length === 0) return null;
-
-  const single = items.length === 1;
+  if (items.length !== 2) return null;
 
   return (
-    <section className="testimonial" id="testimonials">
-      <div className="testimonial-eyebrow">From the families I work with</div>
-      <div className={single ? "testimonial-single" : "testimonial-pair"}>
+    <aside className="testimonial-banner" aria-label="Parent quotes">
+      <div className="testimonial-banner-inner">
         {items.map((q) => (
-          <figure key={q.id} className="testimonial-quote">
-            <div className="testimonial-quote-mark" aria-hidden="true">
-              &ldquo;
-            </div>
-            <blockquote>{q.text}</blockquote>
+          <figure key={q.id} className="testimonial-banner-quote">
+            <blockquote>&ldquo;{q.text}&rdquo;</blockquote>
             <figcaption>{q.author}</figcaption>
           </figure>
         ))}
       </div>
-    </section>
+    </aside>
   );
 }
 

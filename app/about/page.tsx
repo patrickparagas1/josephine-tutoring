@@ -15,11 +15,10 @@ export default function AboutPage() {
   return (
     <>
       <Nav />
-      <Testimonial ids={["warm"]} />
-      <main id="main-content" style={{ paddingTop: "9rem" }}>
+      <Testimonial ids={["warm", "progress"]} />
+      <main id="main-content">
         <About />
       </main>
-      <Testimonial ids={["identity"]} />
       <Process />
       <Footer />
     </>

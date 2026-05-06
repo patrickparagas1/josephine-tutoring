@@ -131,11 +131,6 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link href="/blog" onClick={close}>
-            Notes
-          </Link>
-        </li>
-        <li>
           <Link href="/contact" className="nav-cta" onClick={close}>
             Book
           </Link>
