@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <Testimonial ids={["fun", "warm"]} />
       <main id="main-content">
       <Hero />
+        <Testimonial ids={["fun", "warm"]} />
       <section className="home-gallery">
         <div className="home-gallery-inner">
           <Link href="/subjects#little-ones" className="home-photo">
