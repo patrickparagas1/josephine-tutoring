@@ -59,11 +59,12 @@ export default function Testimonial({ ids }: Props) {
     <aside className="testimonial-banner" aria-label="Parent quotes">
       <div className="testimonial-banner-inner">
         {items.map((q) => (
-          <figure key={q.id} className="testimonial-banner-quote">
-            <span className="testimonial-banner-mark" aria-hidden="true">&ldquo;</span>
-            <blockquote>{q.text}</blockquote>
-            <figcaption>{q.author}</figcaption>
-          </figure>
+          <div key={q.id} className="testimonial-bubble-wrap">
+            <figure className="testimonial-bubble">
+              <blockquote>&ldquo;{q.text}&rdquo;</blockquote>
+            </figure>
+            <figcaption className="testimonial-bubble-author">{q.author}</figcaption>
+          </div>
         ))}
       </div>
     </aside>
