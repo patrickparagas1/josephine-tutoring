@@ -56,52 +56,17 @@ export default function Testimonial({ ids }: Props) {
   if (items.length !== 2) return null;
 
   return (
-    <>
-      <style>{`
-        .speech-bubble {
-          background: var(--cream);
-          border: 1px solid var(--line);
-          border-radius: 1rem;
-          padding: 1.5rem 2rem 1.25rem;
-          position: relative;
-          box-shadow: 0 4px 16px rgba(26, 48, 80, 0.07);
-        }
-        .speech-bubble::after {
-          content: '';
-          position: absolute;
-          bottom: -12px;
-          left: 50%;
-          transform: translateX(-50%);
-          border-width: 12px 10px 0;
-          border-style: solid;
-          border-color: var(--line) transparent transparent;
-        }
-        .speech-bubble::before {
-          content: '';
-          position: absolute;
-          bottom: -10px;
-          left: 50%;
-          transform: translateX(-50%);
-          border-width: 11px 9px 0;
-          border-style: solid;
-          border-color: var(--cream) transparent transparent;
-          z-index: 1;
-        }
-      `}</style>
-      <aside className="testimonial-banner" aria-label="Parent quotes">
-        <div className="testimonial-banner-inner">
-          {items.map((q) => (
-            <figure
-              key={q.id}
-              className="testimonial-banner-quote speech-bubble"
-            >
-              <blockquote>&ldquo;{q.text}&rdquo;</blockquote>
-              <figcaption>{q.author}</figcaption>
-            </figure>
-          ))}
-        </div>
-      </aside>
-    </>
+    <aside className="testimonial-banner" aria-label="Parent quotes">
+      <div className="testimonial-banner-inner">
+        {items.map((q) => (
+          <figure key={q.id} className="testimonial-banner-quote">
+            <span className="testimonial-banner-mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>{q.text}</blockquote>
+            <figcaption>{q.author}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </aside>
   );
 }
 
