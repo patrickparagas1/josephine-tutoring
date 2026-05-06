@@ -12,6 +12,7 @@ export default function Home() {
       <Nav />
       <main id="main-content">
       <Hero />
+        <Testimonial ids={["potential"]} />
       <section className="home-gallery">
         <div className="home-gallery-inner">
           <Link href="/subjects#little-ones" className="home-photo">
@@ -95,7 +96,6 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <Testimonial ids={["fun", "warm"]} />
       <Ornament />
       <section className="home-cta">
         <div className="home-cta-inner">
