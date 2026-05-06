@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+# Pre-push guard: build the site before pushing. If the build fails
+# locally, the push is rejected so broken code never reaches origin
+# (and never wastes a Vercel deploy or pings the team email).
+#
+# Skip with `git push --no-verify` only if you really know what you're doing.
+
+cd "$(git rev-parse --show-toplevel)"
+
+echo ""
+echo "▸ Pre-push: running 'npm run build' to catch syntax/type errors…"
+echo "  (skip with --no-verify if you must)"
+echo ""
+
+if ! npm run build --silent; then
+  echo ""
+  echo "✗ Build failed — push aborted. Fix the errors above, commit again, then re-push."
+  echo ""
+  exit 1
+fi
+
+echo ""
+echo "✓ Build passed. Pushing."
+echo ""
