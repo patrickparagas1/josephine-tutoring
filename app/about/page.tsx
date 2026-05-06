@@ -15,11 +15,11 @@ export default function AboutPage() {
   return (
     <>
       <Nav />
-      <Testimonial ids={["warm", "progress"]} />
       <main id="main-content">
         <About />
       </main>
       <Process />
+      <Testimonial ids={["warm", "progress"]} />
       <Footer />
     </>
   );
