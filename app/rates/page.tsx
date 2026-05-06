@@ -14,10 +14,11 @@ export default function RatesPage() {
   return (
     <>
       <Nav />
-      <Testimonial ids={["progress", "fun"]} />
+      <Testimonial ids={["progress"]} />
       <main id="main-content">
         <Rates />
       </main>
+      <Testimonial ids={["fun"]} />
       <Footer />
     </>
   );
