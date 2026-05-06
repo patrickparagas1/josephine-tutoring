@@ -30,7 +30,7 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div className="hero-visual fade-up delay-4">
+     <div className="hero-visual fade-up delay-4">
         <Image
           src="/josephine-photo.jpg"
           alt="Josephine, private tutor in Irvine"
@@ -40,6 +40,5 @@ export default function Hero() {
           priority
         />
       </div>
-    </section>
   );
 }
