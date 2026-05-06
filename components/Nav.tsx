@@ -125,9 +125,14 @@ export default function Nav() {
             Subjects
           </Link>
         </li>
-        <li>
+      <li>
           <Link href="/rates" onClick={close}>
             Rates
+          </Link>
+        </li>
+        <li>
+          <Link href="/testimonials" onClick={close}>
+            Testimonials
           </Link>
         </li>
         <li>
