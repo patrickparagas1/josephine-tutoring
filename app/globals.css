@@ -1771,3 +1771,19 @@ footer em,
     font-size: 0.9rem;
   }
 }
+
+/* Subtle outlining around testimonial cards */
+.testimonial-quote {
+    border: 1px solid rgba(106, 143, 122, 0.4);
+    box-shadow: 0 2px 10px rgba(26, 48, 80, 0.05);
+}
+
+/* Even vertical padding on testimonial section */
+.testimonial {
+    padding: 7rem 3rem;
+}
+
+/* Make sure hero top isn't cut off below the fixed nav */
+.hero {
+    padding-top: 12rem;
+}
