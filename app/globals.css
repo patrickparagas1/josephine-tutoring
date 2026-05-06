@@ -1684,3 +1684,12 @@ footer em,
   .ornament { padding: 3rem 1.5rem 1.5rem; }
   .ornament svg { width: 110px; }
 }
+
+
+/* Testimonial body — green to match brand accent */
+.testimonial-quote blockquote {
+    color: var(--accent);
+}
+.pull-quote blockquote {
+    color: var(--accent);
+}
