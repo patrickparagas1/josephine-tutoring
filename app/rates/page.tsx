@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Rates from "@/components/Rates";
-import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "Rates · Josephine Tutoring",
@@ -18,7 +17,6 @@ export default function RatesPage() {
       <main id="main-content">
         <Rates />
       </main>
-      <Testimonial ids={["fun"]} />
       <Footer />
     </>
   );
