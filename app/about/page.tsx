@@ -18,8 +18,8 @@ export default function AboutPage() {
       <main id="main-content">
         <About />
       </main>
-      <Process />
       <Testimonial ids={["warm", "progress"]} />
+      <Process />
       <Footer />
     </>
   );
