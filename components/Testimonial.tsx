@@ -107,11 +107,11 @@ export default function Testimonial({ ids }: Props) {
     .map((id) => TESTIMONIALS.find((t) => t.id === id))
     .filter(Boolean) as Quote[];
   if (items.length !== 2) return null;
-  return (
+return (
     <aside className="testimonial-banner" aria-label="Parent quotes">
       <div className="testimonial-banner-inner">
         {items.map((q) => (
-          <figure key={q.id} className="testimonial-banner-quote">
+          <figure key={q.id} className="testimonial-banner-quote speech-bubble">
             <blockquote>&ldquo;{q.text}&rdquo;</blockquote>
             <figcaption>{q.author}</figcaption>
           </figure>
