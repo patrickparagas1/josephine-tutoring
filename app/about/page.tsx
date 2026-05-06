@@ -3,7 +3,6 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Process from "@/components/Process";
-import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "About · Josephine Tutoring",
@@ -18,7 +17,6 @@ export default function AboutPage() {
       <main id="main-content">
         <About />
       </main>
-      <Testimonial ids={["warm", "progress"]} />
       <Process />
       <Footer />
     </>
