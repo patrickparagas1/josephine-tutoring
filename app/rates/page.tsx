@@ -13,7 +13,6 @@ export default function RatesPage() {
   return (
     <>
       <Nav />
-      <Testimonial ids={["progress"]} />
       <main id="main-content">
         <Rates />
       </main>
