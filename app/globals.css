@@ -1693,3 +1693,31 @@ footer em,
 .pull-quote blockquote {
     color: var(--accent);
 }
+
+
+/* Hero: photo on left, text on right (desktop); stacks on mobile */
+@media (min-width: 901px) {
+    .hero {
+          flex-direction: row;
+          align-items: center;
+          text-align: left;
+          gap: 4rem;
+    }
+    .hero-text {
+          text-align: left;
+    }
+    .hero-eyebrow {
+          justify-content: flex-start;
+    }
+    .hero-lede {
+          margin-left: 0;
+    }
+    .cta-group {
+          justify-content: flex-start;
+    }
+    .hero-visual {
+          max-width: 240px;
+          margin-top: 0;
+          flex-shrink: 0;
+    }
+}
