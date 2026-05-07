@@ -1916,7 +1916,7 @@ footer em,
   object-fit: cover;
 }
 .service-card:hover .service-card-bg {
-  opacity: 0.38;
+  opacity: 0.65;
 }
 .service-card-content {
   position: relative;
