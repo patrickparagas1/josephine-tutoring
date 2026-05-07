@@ -61,7 +61,7 @@ export default function Footer() {
           <span className="footer-bottom-sep" aria-hidden="true">
             ·
           </span>
-          
+          <a
             href="https://www.facebook.com/profile.php?id=61588894690978"
             target="_blank"
             rel="noopener noreferrer"
