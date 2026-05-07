@@ -1887,3 +1887,9 @@ footer em,
   margin-bottom: 0;
 }
 .collage-stars { color: #1a3050 !important; }
+.collage-card blockquote p {
+  margin-bottom: 0.75rem;
+}
+.collage-card blockquote p:last-child {
+  margin-bottom: 0;
+}
