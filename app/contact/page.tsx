@@ -3,7 +3,6 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import BookingForm from "@/components/BookingForm";
 import Faq from "@/components/Faq";
-import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "Book a Consultation · Josephine Tutoring",
@@ -15,7 +14,6 @@ export default function ContactPage() {
   return (
     <>
       <Nav />
-      <Testimonial ids={["identity", "video"]} />
       <main id="main-content">
         <BookingForm />
       </main>
