@@ -1880,3 +1880,9 @@ footer em,
   color: #1a3050
   font-size: 1rem;
 }
+.testimonial-slider-quote blockquote p {
+  margin-bottom: 0.75rem;
+}
+.testimonial-slider-quote blockquote p:last-child {
+  margin-bottom: 0;
+}
