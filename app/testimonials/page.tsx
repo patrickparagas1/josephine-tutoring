@@ -84,7 +84,11 @@ export default function TestimonialsPage() {
                 style={q.style}
               >
                 <div className="collage-quote-mark">&ldquo;</div>
-                <blockquote>{q.text}</blockquote>
+                <blockquote>
+  {q.text.split("\n\n").map((para, i) => (
+    <p key={i}>{para}</p>
+  ))}
+</blockquote>
                 <Stars />
                 <figcaption>{q.author}</figcaption>
               </figure>
