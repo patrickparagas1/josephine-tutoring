@@ -4,7 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Ornament from "@/components/Ornament";
-import Testimonial from "@/components/Testimonial";
+import TestimonialSlider from "@/components/TestimonialSlider";
 
 export default function Home() {
   return (
