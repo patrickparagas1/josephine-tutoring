@@ -45,9 +45,6 @@ export default function Footer() {
                 <Link href="/rates">Rates</Link>
               </li>
               <li>
-                <Link href="/blog">Notes</Link>
-              </li>
-              <li>
                 <Link href="/contact">Book</Link>
               </li>
             </ul>
