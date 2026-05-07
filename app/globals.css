@@ -1874,3 +1874,9 @@ footer em,
 @media (max-width: 600px) {
   .testimonials-collage { columns: 1; }
 }
+.collage-stars {
+  display: flex;
+  gap: 0.2rem;
+  color: var(--ink);
+  font-size: 1rem;
+}
