@@ -1877,7 +1877,7 @@ footer em,
 .collage-stars {
   display: flex;
   gap: 0.2rem;
-  color: #1a3050
+  color: #1a3050;
   font-size: 1rem;
 }
 .testimonial-slider-quote blockquote p {
