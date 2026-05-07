@@ -1877,6 +1877,6 @@ footer em,
 .collage-stars {
   display: flex;
   gap: 0.2rem;
-  color: var(--ink);
+  color: #1a3050
   font-size: 1rem;
 }
