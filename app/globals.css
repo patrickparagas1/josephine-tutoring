@@ -1902,6 +1902,18 @@ footer em,
 .footer-social-link:hover {
   color: #d4b05b;
 }
+.footer-review-link {
+  color: rgba(253, 247, 222, 0.5);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+}
+.footer-review-link:hover {
+  color: #d4b05b;
+}
 .service-card {
   overflow: hidden;
 }
