@@ -33,6 +33,12 @@ const TESTIMONIALS = [
     style: { gridColumn: "1 / 2", gridRow: "2 / 3", transform: "rotate(1.5deg)" },
   },
   {
+    id: "george",
+    text: "Josephine is an outstanding and energetic teacher. She is highly dedicated, passionate about teaching, and very innovative, having developed a set of methods that make learning easy for students to understand. My son George has learned a great deal from her.",
+    author: "Josephine Wang, Irvine",
+    style: { gridColumn: "1 / 3", gridRow: "3 / 4", transform: "rotate(-0.5deg)", background: "var(--cream-dark)" },
+  },
+  {
     id: "progress",
     text: "Thank you for your detailed and insightful progress report. It was so helpful.",
     author: "Parent, Irvine",
