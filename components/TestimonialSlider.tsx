@@ -10,33 +10,8 @@ type Quote = {
 const TESTIMONIALS: Quote[] = [
   {
     id: "george",
-    text: "Josephine is an outstanding and energetic teacher. She is highly dedicated, passionate about teaching, and very innovative, having developed a set of methods that make learning easy for students to understand. My son George has learned a great deal from her.",
+    text: "Josephine is an outstanding and energetic teacher. She is highly dedicated, passionate about teaching, and very innovative, having developed a set of methods that make learning easy for students to understand.\n\nMy son George has learned a great deal from her.",
     author: "Josephine Wang, Irvine",
-  },
-  {
-    id: "fun",
-    text: "My son has so much fun in your classes. Thank you for teaching him so much. We hope he can keep working with you.",
-    author: "Parent, NorCal",
-  },
-  {
-    id: "art",
-    text: "Your classes expand his view of art and teach him about aesthetics and culture.",
-    author: "Parent, NorCal",
-  },
-  {
-    id: "identity",
-    text: "Our kids had so much fun exploring ideas of identity, belonging, and diversity. You helped them think about themselves and their own history.",
-    author: "Parent, NorCal",
-  },
-  {
-    id: "warm",
-    text: "So warm, patient, and kind. It meant a lot to us during a tough week.",
-    author: "Parent, Lake Forest",
-  },
-  {
-    id: "progress",
-    text: "Thank you for your detailed and insightful progress report. It was so helpful.",
-    author: "Parent, Irvine",
   },
   {
     id: "video",
@@ -47,6 +22,26 @@ const TESTIMONIALS: Quote[] = [
     id: "potential",
     text: "You brought out their inner potential and interest, not only in language but in creative projects.",
     author: "Parent, South Korea",
+  },
+  {
+    id: "warm",
+    text: "So warm, patient, and kind. It meant a lot to us during a tough week.",
+    author: "Parent, Lake Forest",
+  },
+  {
+    id: "identity",
+    text: "Our kids had so much fun exploring ideas of identity, belonging, and diversity. You helped them think about themselves and their own history.",
+    author: "Parent, NorCal",
+  },
+  {
+    id: "fun",
+    text: "My son has so much fun in your classes. Thank you for teaching him so much. We hope he can keep working with you.",
+    author: "Parent, NorCal",
+  },
+  {
+    id: "progress",
+    text: "Thank you for your detailed and insightful progress report. It was so helpful.",
+    author: "Parent, Irvine",
   },
 ];
 
