@@ -650,6 +650,7 @@ section {
   color: var(--ink);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
+  padding-top: 10rem;
 }
 .rates .section-eyebrow { color: var(--accent); }
 .rates .section-title em { color: var(--accent); }
