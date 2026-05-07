@@ -1902,3 +1902,23 @@ footer em,
 .footer-social-link:hover {
   color: #d4b05b;
 }
+.service-card {
+  overflow: hidden;
+}
+.service-card-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.05;
+  transition: opacity 0.4s ease;
+}
+.service-card-bg img {
+  object-fit: cover;
+}
+.service-card:hover .service-card-bg {
+  opacity: 0.09;
+}
+.service-card-content {
+  position: relative;
+  z-index: 1;
+}
