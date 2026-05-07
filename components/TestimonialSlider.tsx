@@ -9,6 +9,11 @@ type Quote = {
 
 const TESTIMONIALS: Quote[] = [
   {
+    id: "george",
+    text: "Josephine is an outstanding and energetic teacher. She is highly dedicated, passionate about teaching, and very innovative, having developed a set of methods that make learning easy for students to understand. My son George has learned a great deal from her.",
+    author: "Josephine Wang, Irvine",
+  },
+  {
     id: "fun",
     text: "My son has so much fun in your classes. Thank you for teaching him so much. We hope he can keep working with you.",
     author: "Parent, NorCal",
