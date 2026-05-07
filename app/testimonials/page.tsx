@@ -36,7 +36,7 @@ const TESTIMONIALS = [
     id: "george",
     text: "Josephine is an outstanding and energetic teacher. She is highly dedicated, passionate about teaching, and very innovative, having developed a set of methods that make learning easy for students to understand. My son George has learned a great deal from her.",
     author: "Josephine Wang, Irvine",
-    style: { gridColumn: "1 / 3", gridRow: "3 / 4", transform: "rotate(-0.5deg)", background: "var(--cream-dark)" },
+    style: { gridColumn: "2 / 4", gridRow: "3 / 4", transform: "rotate(-0.5deg)", background: "var(--cream-dark)" },
   },
   {
     id: "progress",
@@ -54,9 +54,17 @@ const TESTIMONIALS = [
     id: "potential",
     text: "You brought out their inner potential and interest, not only in language but in creative projects.",
     author: "Parent, South Korea",
-    style: { gridColumn: "2 / 4", gridRow: "3 / 4", transform: "rotate(1deg)" },
+    style: { gridColumn: "2 / 4", gridRow: "4 / 5", transform: "rotate(1deg)" },
   },
 ];
+
+const Stars = () => (
+  <div className="collage-stars" aria-label="5 stars">
+    {"★★★★★".split("").map((s, i) => (
+      <span key={i}>{s}</span>
+    ))}
+  </div>
+);
 
 export default function TestimonialsPage() {
   return (
@@ -77,6 +85,7 @@ export default function TestimonialsPage() {
               >
                 <div className="collage-quote-mark">&ldquo;</div>
                 <blockquote>{q.text}</blockquote>
+                <Stars />
                 <figcaption>{q.author}</figcaption>
               </figure>
             ))}
