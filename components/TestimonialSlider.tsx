@@ -79,7 +79,11 @@ export default function TestimonialSlider() {
           style={{ opacity: visible ? 1 : 0, transition: "opacity 0.35s ease" }}
         >
           <div className="testimonial-quote-mark">&ldquo;</div>
-          <blockquote>{q.text}</blockquote>
+          <blockquote>
+  {q.text.split("\n\n").map((para, i) => (
+    <p key={i}>{para}</p>
+  ))}
+</blockquote>
           <figcaption>{q.author}</figcaption>
         </div>
         <div className="testimonial-slider-dots">
