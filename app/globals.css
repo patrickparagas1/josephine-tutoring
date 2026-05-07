@@ -784,6 +784,7 @@ section {
   background: var(--cream-dark);
   border-top: 1px solid var(--line);
   text-align: center;
+  padding-top: 10rem;
 }
 .contact-inner {
   max-width: 760px;
