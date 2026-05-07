@@ -30,10 +30,10 @@ body {
   background-color: var(--cream);
   background-image:
     linear-gradient(
-      rgba(253, 247, 222, 0.78) 0%,
-      rgba(253, 247, 222, 0.62) 35%,
-      rgba(253, 247, 222, 0.55) 70%,
-      rgba(253, 247, 222, 0.62) 100%
+      rgba(253, 247, 222, 0.62) 0%,
+      rgba(253, 247, 222, 0.46) 35%,
+      rgba(253, 247, 222, 0.40) 70%,
+      rgba(253, 247, 222, 0.46) 100%
     ),
     url('/backdrop.jpg');
   background-size: cover;
