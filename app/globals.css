@@ -1909,14 +1909,14 @@ footer em,
   position: absolute;
   inset: 0;
   z-index: 0;
-  opacity: 0.05;
+  opacity: 0.15;
   transition: opacity 0.4s ease;
 }
 .service-card-bg img {
   object-fit: cover;
 }
 .service-card:hover .service-card-bg {
-  opacity: 0.09;
+  opacity: 0.22;
 }
 .service-card-content {
   position: relative;
