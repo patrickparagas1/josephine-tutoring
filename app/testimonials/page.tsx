@@ -15,12 +15,6 @@ const TESTIMONIALS = [
     style: { gridColumn: "1 / 2", gridRow: "1 / 2", transform: "rotate(-1.5deg)" },
   },
   {
-    id: "identity",
-    text: "Our kids had so much fun exploring ideas of identity, belonging, and diversity. You helped them think about themselves and their own history.",
-    author: "Parent, NorCal",
-    style: { gridColumn: "2 / 3", gridRow: "1 / 3", transform: "rotate(0.5deg)", background: "var(--cream-dark)" },
-  },
-  {
     id: "warm",
     text: "So warm, patient, and kind. It meant a lot to us during a tough week.",
     author: "Parent, Lake Forest",
