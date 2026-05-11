@@ -4,15 +4,22 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="hero-visual fade-up delay-4">
-        <Image
-          src="/josephine-photo.jpg"
-          alt="Josephine, private tutor in Irvine"
-          fill
-          sizes="(max-width: 1100px) 100vw, 340px"
-          quality={95}
-          priority
-        />
+      <div className="hero-visual-wrap fade-up delay-4">
+        <div className="hero-credentials">
+          Wellesley College, B.A. History
+          <br />
+          Georgetown University, M.A. History
+        </div>
+        <div className="hero-visual">
+          <Image
+            src="/josephine-photo.jpg"
+            alt="Josephine, private tutor in Irvine"
+            fill
+            sizes="(max-width: 1100px) 100vw, 340px"
+            quality={95}
+            priority
+          />
+        </div>
       </div>
       <div className="hero-text">
         <div className="hero-eyebrow fade-up">
