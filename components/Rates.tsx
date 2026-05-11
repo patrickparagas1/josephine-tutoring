@@ -86,7 +86,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $45<span>/session</span>
+            $45<span>/0.5hr</span>
           </div>
         </div>
 
