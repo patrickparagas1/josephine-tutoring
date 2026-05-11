@@ -33,19 +33,19 @@ export default function Services() {
             id: "elementary",
             num: "02",
             title: "Elementary · Grades K to 5",
-            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits", "Violin Lessons (Suzuki Method)"],
+            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits"],
           },
           {
             id: "middle-school",
             num: "03",
             title: "Middle School · Grades 6 to 8",
-            items: ["Prealgebra & Algebra", "Essay Writing", "Reading & Vocabulary", "Science & History", "Organization & Planning", "Violin Lessons (Suzuki Method)"],
+            items: ["Prealgebra & Algebra", "Essay Writing", "Reading & Vocabulary", "Science & History", "Organization & Planning"],
           },
           {
             id: "high-school",
             num: "04",
             title: "High School · Grades 9 to 12",
-            items: ["Algebra, Geometry, Precalculus", "English & Essay Coaching", "History Subjects", "Study Organization & Time Management", "Student Leadership Coaching", "Violin Lessons In Musicality"],
+            items: ["Algebra, Geometry, Precalculus", "English & Essay Coaching", "History Subjects", "Study Organization & Time Management", "Student Leadership Coaching"],
           },
           {
             id: "test-prep",
@@ -95,7 +95,7 @@ export default function Services() {
               <h3 className="service-title">{card.title}</h3>
               <ul className="service-list">
                 {card.items.map((item) => (
-                  <li key={item} className={/violin|guitar|music/i.test(item) ? "music" : undefined}>{item}</li>
+                  <li key={item} className={/violin|guitar/i.test(item) ? "music" : undefined}>{item}</li>
                 ))}
               </ul>
             </div>
