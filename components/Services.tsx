@@ -50,7 +50,7 @@ export default function Services() {
           {
             id: "test-prep",
             num: "05",
-            title: "Test Prep",
+            title: "Test Prep & Strategy",
             items: ["Study & Testing Strategies", "Student Lifestyle Training", "ISEE", "PSAT", "SAT", "ACT", "AP"],
           },
           {
