@@ -603,6 +603,50 @@ section {
   font-weight: 500;
 }
 
+/* ABOUT BIOS */
+.about-bios {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  align-items: flex-start;
+}
+.bio-col {
+  flex: 1;
+  padding: 0 2rem;
+}
+.bio-col:first-child {
+  padding-left: 0;
+}
+.bio-col:last-child {
+  padding-right: 0;
+}
+.bio-divider {
+  width: 1px;
+  align-self: stretch;
+  background: var(--line);
+  flex-shrink: 0;
+}
+.bio-label {
+  font-family: var(--font-fraunces), serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--navy);
+  margin-bottom: 1.25rem;
+}
+.bio-col p {
+  font-size: 1rem;
+  color: var(--ink-soft);
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+  font-weight: 300;
+}
+.bio-opener {
+  font-style: italic;
+  color: var(--accent) !important;
+  font-family: var(--font-fraunces), serif;
+  font-size: 1.05rem !important;
+}
+
 /* SERVICES */
 .services-header {
   max-width: 1200px;
@@ -1217,6 +1261,9 @@ footer em,
   section { padding: 4rem 1.5rem; }
   .about-grid { grid-template-columns: 1fr; gap: 3rem; }
   .about-portrait-wrap { width: 100%; max-width: 320px; margin: 0 auto; }
+  .about-bios { flex-direction: column; gap: 2.5rem; }
+  .bio-col { padding: 0; }
+  .bio-divider { width: 100%; height: 1px; align-self: auto; }
   .services-grid { grid-template-columns: 1fr; }
   .rate-row { grid-template-columns: 1fr; gap: 0.5rem; }
   .rate-price { font-size: 1.5rem; }
