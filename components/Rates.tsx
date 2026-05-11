@@ -66,8 +66,7 @@ export default function Rates() {
         <div className="rate-row">
           <div>
             <div className="rate-label">
-              Test Prep &amp; Strategy{" "}
-              <span className="rate-badge">specialty</span>
+              Test Prep &amp; Strategy
             </div>
             <div className="rate-desc">
               One hour session · in person or online
