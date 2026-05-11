@@ -83,7 +83,7 @@ export default function Services() {
               <h3 className="service-title">{card.title}</h3>
               <ul className="service-list">
                 {card.items.map((item) => (
-                  <li key={item}>{item}</li>
+                  <li key={item} className={/violin|guitar|music/i.test(item) ? "music" : undefined}>{item}</li>
                 ))}
               </ul>
             </div>
