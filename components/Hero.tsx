@@ -6,9 +6,7 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-visual-wrap fade-up delay-4">
         <div className="hero-credentials">
-          Wellesley College, B.A. History
-          <br />
-          Georgetown University, M.A. History
+          Wellesley College &amp; Georgetown University Alumna
         </div>
         <div className="hero-visual">
           <Image
