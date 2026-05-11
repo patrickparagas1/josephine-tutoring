@@ -61,6 +61,16 @@ export default function Home() {
             />
             <span className="home-photo-label">High school</span>
           </Link>
+          <Link href="/subjects#test-prep" className="home-photo">
+            <Image
+              src="/photos/test-prep.jpg"
+              alt="A student filling in a standardized test answer sheet with a pencil"
+              width={800}
+              height={600}
+              sizes="(max-width: 900px) 100vw, 33vw"
+            />
+            <span className="home-photo-label">Test prep &amp; strategy</span>
+          </Link>
           <Link href="/subjects#creative" className="home-photo">
             <Image
               src="/photos/creative.jpg"
@@ -80,16 +90,6 @@ export default function Home() {
               sizes="(max-width: 900px) 100vw, 33vw"
             />
             <span className="home-photo-label">English for international learners</span>
-          </Link>
-          <Link href="/subjects#test-prep" className="home-photo">
-            <Image
-              src="/photos/test-prep.jpg"
-              alt="A student filling in a standardized test answer sheet with a pencil"
-              width={800}
-              height={600}
-              sizes="(max-width: 900px) 100vw, 33vw"
-            />
-            <span className="home-photo-label">Test prep &amp; strategy</span>
           </Link>
           <Link href="/subjects#violin" className="home-photo">
             <Image
