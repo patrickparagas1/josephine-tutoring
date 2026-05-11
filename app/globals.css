@@ -71,6 +71,11 @@ body::before {
   position: relative;
   z-index: 2;
 }
+.home-gallery-header {
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
 .home-gallery-inner {
   max-width: 1200px;
   margin: 0 auto;

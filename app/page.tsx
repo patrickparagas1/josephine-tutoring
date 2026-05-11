@@ -14,6 +14,12 @@ export default function Home() {
       <Hero />
        <TestimonialSlider />
         <section className="home-gallery">
+        <div className="home-gallery-header">
+          <div className="section-eyebrow">What I help with</div>
+          <h2 className="section-title">
+            Every grade. <em>Every kind</em> of learner.
+          </h2>
+        </div>
         <div className="home-gallery-inner">
           <Link href="/subjects#little-ones" className="home-photo">
             <Image
@@ -79,18 +85,6 @@ export default function Home() {
       </section>
       <section className="home-preview">
         <div className="home-preview-inner">
-          <div className="section-eyebrow">What I help with</div>
-          <h2 className="section-title">
-            Every grade. <em>Every kind</em> of learner.
-          </h2>
-          <ul className="home-preview-list">
-            <li>Little ones · Early learning, 18 months to 4</li>
-            <li>Elementary foundations · Grades K to 5</li>
-            <li>Middle school subjects · Grades 6 to 8</li>
-            <li>High school academics · Grades 9 to 12</li>
-            <li>Test prep strategy &amp; study lifestyle training</li>
-            <li>Creative writing, art portfolios, college essays</li>
-          </ul>
           <Link href="/subjects" className="btn btn-secondary">
             See all subjects
           </Link>
