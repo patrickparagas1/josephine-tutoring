@@ -27,19 +27,19 @@ export default function Services() {
             id: "little-ones",
             num: "01",
             title: "Little Ones · Ages 18 months to 4",
-            items: ["Creative Play And Expression", "Pre-Reading And Storytelling", "Art Projects And Fine Motor Skills", "Social And Emotional Engagement", "Music Appreciation, Movement, And Listening"],
+            items: ["Pre-Reading And Storytelling", "Creative Play And Expression", "Art Projects And Fine Motor Skills", "Social And Emotional Engagement", "Music Appreciation, Movement, And Listening"],
           },
           {
             id: "elementary",
             num: "02",
             title: "Elementary · Grades K to 5",
-            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits", "Cursive & Penmanship", "Creative Projects"],
+            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Cursive & Penmanship", "Homework Help & Study Habits", "Creative Projects"],
           },
           {
             id: "middle-school",
             num: "03",
             title: "Middle School · Grades 6 to 8",
-            items: ["Prealgebra & Algebra", "Essay Writing", "Reading & Vocabulary", "Science & History", "Organization & Planning"],
+            items: ["Prealgebra & Algebra", "Reading & Vocabulary", "Essay Writing", "Science & History", "Organization & Planning"],
           },
           {
             id: "high-school",
@@ -58,19 +58,19 @@ export default function Services() {
             num: "06",
             title: "Creative & College Prep",
             extra: "feature",
-            items: ["College Application Essays", "Mock Interview", "Writing Competitions", "Art Portfolio Feedback", "Creative Writing Coaching", "Student Leadership Coaching"],
+            items: ["College Application Essays", "Mock Interview", "Student Leadership Coaching", "Creative Writing Coaching", "Writing Competitions", "Art Portfolio Feedback"],
           },
           {
             id: "english",
             num: "07",
             title: "English for International Learners",
-            items: ["Building Confidence", "Speaking & Presentation Practice", "Pronunciation & Conversational Practice", "Listening & Comprehension", "Cursive & Penmanship"],
+            items: ["Building Confidence", "Pronunciation & Conversational Practice", "Listening & Comprehension", "Speaking & Presentation Practice", "Cursive & Penmanship"],
           },
           {
             id: "violin",
             num: "08",
             title: "Violin Lessons",
-            items: ["Foundations", "Ear Training", "Sightreading", "Care & Maintenance", "Suzuki Method", "Musicality"],
+            items: ["Foundations", "Ear Training", "Sightreading", "Suzuki Method", "Musicality", "Care & Maintenance"],
           },
         ].map((card) => (
           <div
