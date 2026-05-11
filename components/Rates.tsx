@@ -18,6 +18,18 @@ export default function Rates() {
 
         <div className="rate-row">
           <div>
+            <div className="rate-label">Violin Lessons</div>
+            <div className="rate-desc">
+              30 minute session · in person or online
+            </div>
+          </div>
+          <div className="rate-price">
+            $45<span>/0.5hr</span>
+          </div>
+        </div>
+
+        <div className="rate-row">
+          <div>
             <div className="rate-label">Little Ones · Ages 18 months to 4</div>
             <div className="rate-desc">
               One hour session · in person or online
@@ -75,18 +87,6 @@ export default function Rates() {
           </div>
           <div className="rate-price">
             $120<span>/hr</span>
-          </div>
-        </div>
-
-        <div className="rate-row">
-          <div>
-            <div className="rate-label">Violin Lessons</div>
-            <div className="rate-desc">
-              30 minute session · in person or online
-            </div>
-          </div>
-          <div className="rate-price">
-            $45<span>/0.5hr</span>
           </div>
         </div>
 
