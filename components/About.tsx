@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section className="about" id="about">
-      <div className="about-stack">
+      <div className="about-grid">
         <div className="about-portrait-wrap">
           <div className="portrait-frame">
             <Image
@@ -18,8 +18,8 @@ export default function About() {
           </div>
         </div>
 
-        <div className="about-bios">
-          {/* Bio 1 — Academic Tutor — LEFT */}
+        <div className="about-bios-stack">
+          {/* Bio 1 — Academic Tutor — TOP */}
           <div className="bio-col">
             <div className="bio-label">
               <svg className="bio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -62,9 +62,9 @@ export default function About() {
             </p>
           </div>
 
-          <div className="bio-divider" />
+          <div className="bio-divider-h" />
 
-          {/* Bio 2 — Violin Teacher — RIGHT */}
+          {/* Bio 2 — Violin Teacher — BOTTOM */}
           <div className="bio-col">
             <div className="bio-label">
               <svg className="bio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -105,6 +105,5 @@ export default function About() {
         </div>
       </div>
     </section>
-
   );
 }

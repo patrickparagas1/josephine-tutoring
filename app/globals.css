@@ -618,6 +618,17 @@ section {
 }
 
 /* ABOUT BIOS */
+.about-bios-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.bio-divider-h {
+  width: 100%;
+  height: 1px;
+  background: var(--line);
+  margin: 2rem 0;
+}
 .about-bios {
   display: flex;
   flex-direction: row;
