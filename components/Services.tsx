@@ -45,7 +45,7 @@ export default function Services() {
             id: "high-school",
             num: "04",
             title: "High School · Grades 9 to 12",
-            items: ["Algebra, geometry, precalculus", "English & essay coaching", "History subjects", "Study organization", "Time management"],
+            items: ["Algebra, geometry, precalculus", "English & essay coaching", "History subjects", "Study organization & time management"],
           },
           {
             id: "creative",
