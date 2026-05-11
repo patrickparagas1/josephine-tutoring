@@ -81,7 +81,7 @@ export default function Rates() {
         <div className="rate-row">
           <div>
             <div className="rate-label">
-              College Application Prep{" "}
+              Creative &amp; College Prep{" "}
               <span className="rate-badge">specialty</span>
             </div>
             <div className="rate-desc">
