@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section className="about" id="about">
-      <div className="about-grid">
+      <div className="about-stack">
         <div className="about-portrait-wrap">
           <div className="portrait-frame">
             <Image
@@ -93,5 +93,6 @@ export default function About() {
         </div>
       </div>
     </section>
+
   );
 }

@@ -603,6 +603,20 @@ section {
   font-weight: 500;
 }
 
+/* ABOUT STACK */
+.about-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3.5rem;
+}
+.about-stack .about-portrait-wrap {
+  width: 100%;
+  max-width: 340px;
+}
+
 /* ABOUT BIOS */
 .about-bios {
   display: flex;
