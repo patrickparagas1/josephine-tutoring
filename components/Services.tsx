@@ -58,7 +58,7 @@ export default function Services() {
             id: "english",
             num: "06",
             title: "English for International Learners",
-            items: ["Building Confidence", "Speaking & Presentation Practice", "Pronunciation", "Conversational Practice", "Listening & Comprehension"],
+            items: ["Building Confidence", "Speaking & Presentation Practice", "Pronunciation & Conversational Practice", "Listening & Comprehension", "Cursive & Penmanship"],
           },
         ].map((card) => (
           <div
