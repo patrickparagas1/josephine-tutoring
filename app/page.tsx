@@ -81,6 +81,26 @@ export default function Home() {
             />
             <span className="home-photo-label">English for international learners</span>
           </Link>
+          <Link href="/subjects#test-prep" className="home-photo">
+            <Image
+              src="/photos/test-prep.jpg"
+              alt="A student filling in a standardized test answer sheet with a pencil"
+              width={800}
+              height={600}
+              sizes="(max-width: 900px) 100vw, 33vw"
+            />
+            <span className="home-photo-label">Test prep &amp; strategy</span>
+          </Link>
+          <Link href="/subjects#violin" className="home-photo">
+            <Image
+              src="/photos/violin.jpg"
+              alt="Close-up of a violin f-hole and body"
+              width={800}
+              height={600}
+              sizes="(max-width: 900px) 100vw, 33vw"
+            />
+            <span className="home-photo-label">Violin lessons</span>
+          </Link>
         </div>
       </section>
       <section className="home-preview">
