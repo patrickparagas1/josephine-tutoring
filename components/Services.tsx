@@ -94,7 +94,15 @@ export default function Services() {
             )}
             <div className="service-card-content">
               <div className="service-number serif">{card.num}</div>
-              <h3 className="service-title">{card.title}</h3>
+              <h3 className="service-title">
+                {card.title.includes(" · ") ? (
+                  <>
+                    {card.title.split(" · ")[0]}
+                    <br />
+                    <span className="service-title-sub">{card.title.split(" · ")[1]}</span>
+                  </>
+                ) : card.title}
+              </h3>
               <ul className="service-list">
                 {card.items.map((item) => (
                   <li key={item} className={/violin|guitar/i.test(item) ? "music" : undefined}>{item}</li>
