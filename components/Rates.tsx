@@ -20,7 +20,7 @@ export default function Rates() {
           <div>
             <div className="rate-label">Little Ones · Ages 18 months to 4</div>
             <div className="rate-desc">
-              One hour session · in person or online
+              One hour session · in person
             </div>
           </div>
           <div className="rate-price">
