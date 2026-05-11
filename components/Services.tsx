@@ -56,7 +56,7 @@ export default function Services() {
           {
             id: "creative",
             num: "06",
-            title: "Creative & College Prep",
+            title: "Creative & College Applications",
             extra: "feature",
             items: ["College Application Essays", "Writing Competitions", "Art Portfolio Feedback", "Creative Writing Coaching"],
           },
