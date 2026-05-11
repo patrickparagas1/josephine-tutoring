@@ -32,7 +32,7 @@ export default function Rates() {
           <div>
             <div className="rate-label">Elementary · Grades K to 5</div>
             <div className="rate-desc">
-              One hour session · at home or online
+              One hour session · in person or online
             </div>
           </div>
           <div className="rate-price">
@@ -44,7 +44,7 @@ export default function Rates() {
           <div>
             <div className="rate-label">Middle School · Grades 6 to 8</div>
             <div className="rate-desc">
-              One hour session · at home or online
+              One hour session · in person or online
             </div>
           </div>
           <div className="rate-price">
@@ -67,7 +67,7 @@ export default function Rates() {
         <div className="rate-row">
           <div>
             <div className="rate-label">
-              Test Prep Strategy &amp; Study Lifestyle Training
+              Test Prep &amp; Strategy
             </div>
             <div className="rate-desc">
               One hour session · SAT, ACT, and study skills coaching
@@ -75,6 +75,18 @@ export default function Rates() {
           </div>
           <div className="rate-price">
             $120<span>/hr</span>
+          </div>
+        </div>
+
+        <div className="rate-row">
+          <div>
+            <div className="rate-label">Violin Lessons</div>
+            <div className="rate-desc">
+              30 minute session · in person or online
+            </div>
+          </div>
+          <div className="rate-price">
+            $45<span>/session</span>
           </div>
         </div>
 
