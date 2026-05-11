@@ -27,7 +27,7 @@ export default function Services() {
             id: "little-ones",
             num: "01",
             title: "Little Ones · Ages 18 months to 4",
-            items: ["Creative Play And Expression", "Pre-Reading And Storytelling", "Art Projects And Fine Motor Skills", "Music Appreciation, Movement, And Listening", "Social And Emotional Engagement"],
+            items: ["Creative Play And Expression", "Pre-Reading And Storytelling", "Art Projects And Fine Motor Skills", "Social And Emotional Engagement", "Music Appreciation, Movement, And Listening"],
           },
           {
             id: "elementary",
