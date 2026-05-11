@@ -27,19 +27,19 @@ export default function Services() {
             id: "little-ones",
             num: "01",
             title: "Little Ones · Ages 18 months to 4",
-            items: ["Creative Play And Expression", "Pre-Reading And Storytelling", "Art Projects And Fine Motor Skills", "Social And Emotional Engagement", "Music Appreciation, Movement, And Listening"],
+            items: ["Creative Play And Expression", "Pre-Reading And Storytelling", "Art Projects And Fine Motor Skills", "Social And Emotional Engagement", "Music Appreciation, Movement, And Listening", "Violin Lessons (Suzuki Method)"],
           },
           {
             id: "elementary",
             num: "02",
             title: "Elementary · Grades K to 5",
-            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits", "Violin Lessons (Suzuki Method)", "Guitar Lessons (via Chords)"],
+            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits", "Violin Lessons (Suzuki Method)"],
           },
           {
             id: "middle-school",
             num: "03",
             title: "Middle School · Grades 6 to 8",
-            items: ["Prealgebra & Algebra", "Essay Writing", "Reading & Vocabulary", "Science & History", "Organization & Planning", "Violin Lessons (Suzuki Method)", "Guitar Lessons (via Chords)"],
+            items: ["Prealgebra & Algebra", "Essay Writing", "Reading & Vocabulary", "Science & History", "Organization & Planning", "Violin Lessons (Suzuki Method)"],
           },
           {
             id: "high-school",
