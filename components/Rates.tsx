@@ -20,7 +20,7 @@ export default function Rates() {
           <div>
             <div className="rate-label">Little Ones · Ages 18 months to 4</div>
             <div className="rate-desc">
-              One hour session · enrichment through play
+              One hour session · in person or online
             </div>
           </div>
           <div className="rate-price">
@@ -56,7 +56,7 @@ export default function Rates() {
           <div>
             <div className="rate-label">High School · Grades 9 to 12</div>
             <div className="rate-desc">
-              One hour session · subjects &amp; enrichment
+              One hour session · in person or online
             </div>
           </div>
           <div className="rate-price">
@@ -70,7 +70,7 @@ export default function Rates() {
               Test Prep &amp; Strategy
             </div>
             <div className="rate-desc">
-              One hour session · SAT, ACT, and study skills coaching
+              One hour session · in person or online
             </div>
           </div>
           <div className="rate-price">
@@ -97,7 +97,7 @@ export default function Rates() {
               <span className="rate-badge">specialty</span>
             </div>
             <div className="rate-desc">
-              90 minute sessions · essays, school lists, and strategy
+              90 minute session · in person or online
             </div>
           </div>
           <div className="rate-price">
