@@ -643,7 +643,7 @@ section {
   font-size: 0.95rem;
 }
 .service-list li:last-child { border-bottom: none; }
-.service-list li.music { color: var(--accent); font-weight: 500; }
+.service-list li.music { font-style: italic; }
 
 /* RATES */
 .rates {
