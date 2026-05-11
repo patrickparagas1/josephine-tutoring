@@ -53,14 +53,14 @@ export default function Services() {
             id: "test-prep",
             num: "05",
             title: "Test Prep & Strategy",
-            items: ["Study & Testing Strategies", "Student Lifestyle Training", "ISEE", "PSAT", "SAT", "ACT", "AP"],
+            items: ["ISEE", "PSAT", "SAT", "ACT", "AP"],
           },
           {
             id: "creative",
             num: "06",
             title: "Creative & College Prep",
             extra: "feature",
-            items: ["College Application Essays", "Mock Interview", "Student Leadership Coaching", "Creative Writing Coaching", "Writing Competitions", "Art Portfolio Feedback"],
+            items: ["College Application Essays", "Student Leadership Coaching", "Creative Writing Coaching", "Writing Competitions", "Art Portfolio Feedback"],
           },
           {
             id: "english",
