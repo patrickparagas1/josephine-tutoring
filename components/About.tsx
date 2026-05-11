@@ -19,41 +19,7 @@ export default function About() {
         </div>
 
         <div className="about-bios">
-          {/* Bio 2 — Violin Teacher — LEFT */}
-          <div className="bio-col">
-            <div className="bio-label">🎻 Violin Teacher</div>
-            <p>
-              My violin story started in elementary school when a visiting
-              teacher let my class try Twinkle Twinkle Little Star. Something
-              clicked. In fifth grade I almost quit — my mom said no, then
-              never mentioned it again. That quiet belief gave me the freedom
-              to make the instrument truly my own.
-            </p>
-            <p>
-              I discovered the violin could say things I didn&apos;t have
-              words for — grief, joy, wonder, all of it wordless and intimate.
-              Some of my most precious memories are of performing at my
-              grandfather&apos;s funeral and community events, offering the
-              kind of comfort that only music can give. In college, early
-              morning and evening track practices as a varsity Track &amp;
-              Field athlete at Wellesley gradually took over, and the violin
-              quietly faded into the background. But it never fully left.
-              During COVID, when the world went still, it resurfaced — and
-              reminded me exactly why I had never been able to let it go.
-            </p>
-            <p>
-              I teach using the Suzuki Method alongside approaches I have
-              gathered across more than two decades of playing, learning, and
-              living with this instrument. Because I believe music is caught
-              before it&apos;s taught. My job isn&apos;t just to correct bow
-              hold — it&apos;s to make your child fall in love with the sound
-              they&apos;re capable of making.
-            </p>
-          </div>
-
-          <div className="bio-divider" />
-
-          {/* Bio 1 — Academic Tutor — RIGHT */}
+          {/* Bio 1 — Academic Tutor — LEFT */}
           <div className="bio-col">
             <div className="bio-label">📚 Academic Tutor</div>
             <p className="bio-opener">
@@ -88,6 +54,40 @@ export default function About() {
             <p>
               At the end of the day, the subject is just the doorway. You are
               who I&apos;m here for.
+            </p>
+          </div>
+
+          <div className="bio-divider" />
+
+          {/* Bio 2 — Violin Teacher — RIGHT */}
+          <div className="bio-col">
+            <div className="bio-label">🎻 Violin Teacher</div>
+            <p>
+              My violin story started in elementary school when a visiting
+              teacher let my class try Twinkle Twinkle Little Star. Something
+              clicked. In fifth grade I almost quit — my mom said no, then
+              never mentioned it again. That quiet belief gave me the freedom
+              to make the instrument truly my own.
+            </p>
+            <p>
+              I discovered the violin could say things I didn&apos;t have
+              words for — grief, joy, wonder, all of it wordless and intimate.
+              Some of my most precious memories are of performing at my
+              grandfather&apos;s funeral and community events, offering the
+              kind of comfort that only music can give. In college, early
+              morning and evening track practices as a varsity Track &amp;
+              Field athlete at Wellesley gradually took over, and the violin
+              quietly faded into the background. But it never fully left.
+              During COVID, when the world went still, it resurfaced — and
+              reminded me exactly why I had never been able to let it go.
+            </p>
+            <p>
+              I teach using the Suzuki Method alongside approaches I have
+              gathered across more than two decades of playing, learning, and
+              living with this instrument. Because I believe music is caught
+              before it&apos;s taught. My job isn&apos;t just to correct bow
+              hold — it&apos;s to make your child fall in love with the sound
+              they&apos;re capable of making.
             </p>
           </div>
         </div>
