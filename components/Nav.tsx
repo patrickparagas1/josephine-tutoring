@@ -117,7 +117,7 @@ export default function Nav() {
         </li>
         <li>
           <Link href="/about" onClick={close}>
-            About
+            Note
           </Link>
         </li>
         <li>
