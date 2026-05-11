@@ -33,7 +33,7 @@ export default function Services() {
             id: "elementary",
             num: "02",
             title: "Elementary · Grades K to 5",
-            items: ["Reading fluency & comprehension", "Writing & spelling", "Math foundations", "Homework help", "Study habits", "Violin Lessons (Suzuki method)", "Guitar Lessons (via chords)"],
+            items: ["Reading fluency & comprehension", "Writing & spelling", "Math foundations", "Homework help & study habits", "Violin Lessons (Suzuki method)", "Guitar Lessons (via chords)"],
           },
           {
             id: "middle-school",
