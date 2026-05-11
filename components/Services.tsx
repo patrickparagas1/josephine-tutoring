@@ -52,7 +52,7 @@ export default function Services() {
             num: "05",
             title: "Creative & College Prep",
             extra: "feature",
-            items: ["College Application Essays", "Writing Competitions", "Art Portfolio Feedback", "Test Prep Strategy & Study Lifestyle Training", "Creative Writing Coaching"],
+            items: ["College Application Essays", "Writing Competitions", "Art Portfolio Feedback", "Creative Writing Coaching"],
           },
           {
             id: "english",
