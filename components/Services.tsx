@@ -33,13 +33,13 @@ export default function Services() {
             id: "elementary",
             num: "02",
             title: "Elementary · Grades K to 5",
-            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits", "Violin Lessons (Suzuki Method)", "Guitar Lessons (Via Chords)"],
+            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits", "Violin Lessons (Suzuki Method)", "Guitar Lessons (via Chords)"],
           },
           {
             id: "middle-school",
             num: "03",
             title: "Middle School · Grades 6 to 8",
-            items: ["Prealgebra & Algebra", "Essay Writing", "Reading & Vocabulary", "Science & History", "Organization & Planning", "Violin Lessons (Suzuki Method)", "Guitar Lessons (Via Chords)"],
+            items: ["Prealgebra & Algebra", "Essay Writing", "Reading & Vocabulary", "Science & History", "Organization & Planning", "Violin Lessons (Suzuki Method)", "Guitar Lessons (via Chords)"],
           },
           {
             id: "high-school",
