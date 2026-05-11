@@ -21,7 +21,12 @@ export default function About() {
         <div className="about-bios">
           {/* Bio 1 — Academic Tutor — LEFT */}
           <div className="bio-col">
-            <div className="bio-label">📚 Academic Tutor</div>
+            <div className="bio-label">
+              <svg className="bio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+              Academic Tutor
+            </div>
             <p className="bio-opener">
               Learning only goes as deep as the relationship that holds it.
             </p>
@@ -61,7 +66,14 @@ export default function About() {
 
           {/* Bio 2 — Violin Teacher — RIGHT */}
           <div className="bio-col">
-            <div className="bio-label">🎻 Violin Teacher</div>
+            <div className="bio-label">
+              <svg className="bio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M9 18V5l12-2v13" />
+                <circle cx="6" cy="18" r="3" />
+                <circle cx="18" cy="16" r="3" />
+              </svg>
+              Violin Teacher
+            </div>
             <p>
               My violin story started in elementary school when a visiting
               teacher let my class try Twinkle Twinkle Little Star. Something
