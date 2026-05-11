@@ -45,7 +45,7 @@ export default function Services() {
             id: "high-school",
             num: "04",
             title: "High School · Grades 9 to 12",
-            items: ["Algebra, Geometry, Precalculus", "English & Essay Coaching", "History Subjects", "Study Organization & Time Management", "Student Leadership Coaching"],
+            items: ["Algebra, Geometry, Precalculus", "English & Essay Coaching", "History Subjects", "Study Organization & Time Management"],
           },
           {
             id: "test-prep",
@@ -58,7 +58,7 @@ export default function Services() {
             num: "06",
             title: "Creative & College Prep",
             extra: "feature",
-            items: ["College Application Essays", "Writing Competitions", "Art Portfolio Feedback", "Creative Writing Coaching"],
+            items: ["College Application Essays", "Writing Competitions", "Art Portfolio Feedback", "Creative Writing Coaching", "Student Leadership Coaching"],
           },
           {
             id: "english",
