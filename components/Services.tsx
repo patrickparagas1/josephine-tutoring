@@ -8,7 +8,7 @@ const CARD_PHOTOS: Record<string, string> = {
   "creative": "/photos/creative.jpg",
   "english": "/photos/english.jpg",
   "test-prep": "/photos/test-prep.jpg",
-  "violin": "/photos/violin.jpg",
+  "violin": "/photos/violin-lessons.jpg",
 };
 
 export default function Services() {

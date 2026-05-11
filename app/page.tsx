@@ -93,7 +93,7 @@ export default function Home() {
           </Link>
           <Link href="/subjects#violin" className="home-photo">
             <Image
-              src="/photos/violin.jpg"
+              src="/photos/violin-lessons.jpg"
               alt="Close-up of a violin f-hole and body"
               width={800}
               height={600}
