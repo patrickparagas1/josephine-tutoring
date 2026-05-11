@@ -48,15 +48,21 @@ export default function Services() {
             items: ["Algebra, Geometry, Precalculus", "English & Essay Coaching", "History Subjects", "Study Organization & Time Management", "Student Leadership Coaching", "Violin Lessons In Musicality"],
           },
           {
-            id: "creative",
+            id: "test-prep",
             num: "05",
+            title: "Test Prep",
+            items: ["ISEE", "PSAT", "SAT", "ACT", "AP"],
+          },
+          {
+            id: "creative",
+            num: "06",
             title: "Creative & College Prep",
             extra: "feature",
             items: ["College Application Essays", "Writing Competitions", "Art Portfolio Feedback", "Creative Writing Coaching"],
           },
           {
             id: "english",
-            num: "06",
+            num: "07",
             title: "English for International Learners",
             items: ["Building Confidence", "Speaking & Presentation Practice", "Pronunciation & Conversational Practice", "Listening & Comprehension", "Cursive & Penmanship"],
           },
