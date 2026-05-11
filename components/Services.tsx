@@ -27,13 +27,13 @@ export default function Services() {
             id: "little-ones",
             num: "01",
             title: "Little Ones · Ages 18 months to 4",
-            items: ["Creative Play And Expression", "Pre-Reading And Storytelling", "Art Projects And Fine Motor Skills", "Social And Emotional Engagement", "Music Appreciation, Movement, And Listening", "Violin Lessons (Suzuki Method)"],
+            items: ["Creative Play And Expression", "Pre-Reading And Storytelling", "Art Projects And Fine Motor Skills", "Social And Emotional Engagement", "Music Appreciation, Movement, And Listening"],
           },
           {
             id: "elementary",
             num: "02",
             title: "Elementary · Grades K to 5",
-            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits"],
+            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits", "Creative Projects"],
           },
           {
             id: "middle-school",
