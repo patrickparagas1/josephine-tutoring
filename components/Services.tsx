@@ -33,7 +33,7 @@ export default function Services() {
             id: "elementary",
             num: "02",
             title: "Elementary · Grades K to 5",
-            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits", "Creative Projects"],
+            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Homework Help & Study Habits", "Creative Projects", "Cursive & Penmanship"],
           },
           {
             id: "middle-school",
