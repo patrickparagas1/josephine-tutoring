@@ -10,8 +10,7 @@ export default function Rates() {
         </h2>
         <p className="rates-intro">
           Pay per session. Packages are optional and save a little for
-          families booking regularly. Specialty coaching (SAT, ACT, and
-          college applications) is priced separately to reflect the extra
+          families booking regularly. Specialty coaching is priced separately to reflect the extra
           prep work behind it. The first 15 minute consultation is always
           free.
         </p>
