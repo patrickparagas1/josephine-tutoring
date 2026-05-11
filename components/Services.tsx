@@ -70,7 +70,7 @@ export default function Services() {
             id: "violin",
             num: "08",
             title: "Violin Lessons",
-            items: ["Suzuki Method", "Musicality"],
+            items: ["Foundations", "Sightreading", "Care & Maintenance", "Suzuki Method", "Musicality"],
           },
         ].map((card) => (
           <div
