@@ -69,31 +69,34 @@ export default function About() {
             Violin Teacher
           </div>
           <p>
-            My violin story started in elementary school when a visiting
-            teacher let my class try Twinkle Twinkle Little Star. Something
-            clicked. In fifth grade I almost quit — my mom said no, then
-            never mentioned it again. That quiet belief gave me the freedom
-            to make the instrument truly my own.
+            My violin story began in elementary school when a visiting
+            teacher let me attempt &ldquo;Twinkle Twinkle Little Star.&rdquo;
+            Something sparked. But by the time fifth grade came around, I
+            wanted to quit — my mom said no, then never mentioned it again.
+            That boundary gave me the freedom to make the instrument my own.
           </p>
           <p>
-            I discovered the violin could say things I didn&apos;t have
-            words for — grief, joy, wonder, all of it wordless and intimate.
-            Some of my most precious memories are of performing at my
-            grandfather&apos;s funeral and community events, offering the
-            kind of comfort that only music can give. In college, early
-            morning and evening track practices as a varsity Track &amp;
-            Field athlete at Wellesley gradually took over, and the violin
-            quietly faded into the background. But it never fully left.
-            During COVID, when the world went still, it resurfaced — and
-            reminded me exactly why I had never been able to let it go.
+            Over the years, I have discovered that the violin can articulate
+            what words sometimes cannot — grief, joy, delight, and more.
+            Although I have performed at Segerstrom, Walt Disney Concert
+            Hall, Irish churches, and the House of Blues with a Beatles
+            tribute group, one of my most precious memories is sharing my
+            grandfather&apos;s favorite hymn, &ldquo;Blessed Assurance,&rdquo;
+            at his funeral.
           </p>
           <p>
-            I teach using the Suzuki Method alongside approaches I have
-            gathered across more than two decades of playing, learning, and
-            living with this instrument. Because I believe music is caught
-            before it&apos;s taught. My job isn&apos;t just to correct bow
-            hold — it&apos;s to make your child fall in love with the sound
-            they&apos;re capable of making.
+            In college, lifts and practices as a varsity Track &amp; Field
+            athlete gradually took over, and the violin quietly faded into
+            the background. During the COVID pandemic, however, it
+            resurfaced — and reminded me exactly why I had never been able
+            to let it go.
+          </p>
+          <p>
+            I teach the approaches I have gathered across more than two
+            decades of playing and learning this instrument. Because I
+            believe music is caught before it&apos;s taught. My job
+            isn&apos;t just to correct bow hold — it&apos;s to make your
+            child fall in love with the sound they&apos;re capable of making.
           </p>
         </div>
       </div>
