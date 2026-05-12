@@ -31,11 +31,10 @@ export default function About() {
           </p>
           <p>
             I came to teaching through history — a B.A. from Wellesley
-            College, a Master&apos;s from Georgetown University, and graduate
-            research that took me all the way to the Arctic. Law school was
-            the plan after that. Life had other ideas, and looking back, the
-            path that unfolded has made far more sense than the one I mapped
-            out.
+            College and a Master&apos;s from Georgetown University. Law school
+            was the plan after that. Life had other ideas, and looking back,
+            the path that unfolded has made far more sense than the one I
+            mapped out.
           </p>
           <p>
             That road had taken me across continents and over a decade of
