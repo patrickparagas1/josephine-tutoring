@@ -8,9 +8,8 @@ export default function Footer() {
           <div className="footer-col footer-brand">
             <div className="footer-brand-name">Josephine the Tutor</div>
             <p className="footer-brand-tagline">
-              Patient, personalized tutoring for every kind of learner.
-              Toddlers through 12th grade, in your home, the library, or
-              online.
+              Patient, personalized tutoring. Toddlers to seniors, in your
+              home, the library, or online.
             </p>
             <p className="footer-brand-meta">Irvine, California</p>
           </div>
