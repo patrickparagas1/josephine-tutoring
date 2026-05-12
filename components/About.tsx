@@ -39,18 +39,18 @@ export default function About() {
           </p>
           <p>
             My past has taken me across continents and over a decade of
-            teaching — elementary classrooms in Mexico and Beijing, a year
-            living and studying in Taiwan, research and travel through Peru,
-            and mentoring first-generation college students in the DMV area.
+            teaching — elementary classrooms in Mexico and Beijing, studying
+            in Taiwan and Peru, research in the Arctic, and mentoring
+            first-generation college students in the DMV area.
           </p>
           <p>
             Specifically, from 2025 to 2026, though, I have co-experienced
             something quietly extraordinary about every stage of learning.
             The pleasure of being there when your toddler student suddenly
             connects a sound to a word. The warmth felt conversing with the
-            senior who picks up something new with a sense of wonder. I am
-            convinced that learning is about loving — and that it flourishes
-            in relationship.
+            senior who picks up something new with a sense of wonder. I
+            became convinced that learning is about loving — and that it
+            flourishes in relationship.
           </p>
           <p>
             At the end of the day, the subject is just the doorway. You are
