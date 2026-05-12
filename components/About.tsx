@@ -30,14 +30,12 @@ export default function About() {
             Learning only goes as deep as the relationship that holds it.
           </p>
           <p>
-            I come to teaching through history — a Bachelor&apos;s from
-            Wellesley College and a Master&apos;s from Georgetown University,
-            where I was selected as a Global Cities cohort member and
-            received both a research grant and a department travel award,
-            both of which sent me to the official hometown of Santa Claus in
-            the Arctic for graduate research. After graduate school I was on
-            track toward law school, but God had other plans — and it only
-            made sense looking backwards.
+            I came to teaching through history — a B.A. from Wellesley
+            College, a Master&apos;s from Georgetown University, and graduate
+            research that took me all the way to the Arctic. Law school was
+            the plan after that. Life had other ideas, and looking back, the
+            path that unfolded has made far more sense than the one I mapped
+            out.
           </p>
           <p>
             That road had taken me across continents and over a decade of
