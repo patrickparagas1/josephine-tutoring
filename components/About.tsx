@@ -26,30 +26,31 @@ export default function About() {
             </svg>
             Academic Tutor
           </div>
-          <p className="bio-opener">
-            Learning only goes as deep as the relationship that holds it.
+          <p>
+            Teaching, for me, grew out of a love of learning — one that was
+            sharpened and challenged by the academic study of history. After
+            receiving a Bachelor&apos;s from Wellesley College and a
+            Master&apos;s from Georgetown University, I resolutely headed
+            towards law school. But Providence stopped me.
           </p>
           <p>
-            I came to teaching through history — a B.A. from Wellesley
-            College and a Master&apos;s from Georgetown University. Law school
-            was the plan after that. Life had other ideas, and looking back,
-            the path that unfolded has made far more sense than the one I
-            mapped out.
+            Looking back, there was always a throughline — sharing the joy
+            of learning with individuals at the heart of it.
           </p>
           <p>
-            Teaching had taken me across continents and over a decade — elementary classrooms in Mexico and Beijing, a year
+            My past has taken me across continents and over a decade of
+            teaching — elementary classrooms in Mexico and Beijing, a year
             living and studying in Taiwan, research and travel through Peru,
-            mentoring first-generation college students in the DMV area, and
-            teaching immigrant students across multiple subjects here in
-            Irvine. There is something quietly extraordinary about every
-            stage of learning — the toddler who suddenly connects a sound to
-            a word, the senior who picks up something new just because they
-            can. I have had the privilege of witnessing all of it.
+            and mentoring first-generation college students in the DMV area.
           </p>
           <p>
-            I offer personalized support in core subjects, ISEE/SSAT test
-            prep, college application prep, and success-building skills —
-            both in-person and online.
+            Specifically, from 2025 to 2026, though, I have co-experienced
+            something quietly extraordinary about every stage of learning.
+            The pleasure of being there when your toddler student suddenly
+            connects a sound to a word. The warmth felt conversing with the
+            senior who picks up something new with a sense of wonder. I am
+            convinced that learning is about loving — and that it flourishes
+            in relationship.
           </p>
           <p>
             At the end of the day, the subject is just the doorway. You are
