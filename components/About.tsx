@@ -44,13 +44,12 @@ export default function About() {
             first-generation college students in the DMV area.
           </p>
           <p>
-            Specifically, from 2025 to 2026, though, I have co-experienced
-            something quietly extraordinary about every stage of learning.
-            The pleasure of being there when your toddler student suddenly
-            connects a sound to a word. The warmth felt conversing with the
-            senior who picks up something new with a sense of wonder. I
-            became convinced that learning is about loving — and that it
-            flourishes in relationship.
+            As of late, I have been co-experiencing something quietly
+            extraordinary about every stage of learning. The pleasure of
+            being there when your toddler student suddenly connects a sound
+            to a word. The warmth felt conversing with the senior who picks
+            up something new with a sense of wonder. I am convinced that
+            learning is about loving — and that it flourishes in relationship.
           </p>
           <p>
             At the end of the day, the subject is just the doorway. You are
