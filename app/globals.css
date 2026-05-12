@@ -397,6 +397,14 @@ nav {
   font-weight: 300;
   line-height: 1.5;
 }
+.lede-line {
+  white-space: nowrap;
+}
+@media (max-width: 900px) {
+  .lede-line {
+    white-space: normal;
+  }
+}
 .cta-group {
   display: flex;
   gap: 1rem;

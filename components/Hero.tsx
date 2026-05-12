@@ -31,11 +31,11 @@ export default function Hero() {
           of learner.
         </h1>
         <p className="hero-lede fade-up delay-2">
-          ✎ Private tutoring and outside-the-box learning, from toddlers to seniors.
+          <span className="lede-line">✎ Personalized tutoring, from toddlers to seniors.</span>
           <br />
-          ✎ Academic subjects, test prep, college apps, life skills, and creative projects.
+          <span className="lede-line">✎ Academic subjects, exam &amp; college prep, life skills, and creative projects.</span>
           <br />
-          ✎ At your home, the library, or online.
+          <span className="lede-line">✎ At your home, the library, or online.</span>
         </p>
         <div className="cta-group fade-up delay-3">
           <Link href="/contact" className="btn btn-primary">
