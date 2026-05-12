@@ -37,8 +37,7 @@ export default function About() {
             mapped out.
           </p>
           <p>
-            That road had taken me across continents and over a decade of
-            teaching — elementary classrooms in Mexico and Beijing, a year
+            Teaching had taken me across continents and over a decade — elementary classrooms in Mexico and Beijing, a year
             living and studying in Taiwan, research and travel through Peru,
             mentoring first-generation college students in the DMV area, and
             teaching immigrant students across multiple subjects here in
