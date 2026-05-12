@@ -31,9 +31,9 @@ export default function Hero() {
           of learner.
         </h1>
         <p className="hero-lede fade-up delay-2">
-          Private tutoring and early learning, from toddlers through 12th
-          grade. Academic subjects, test prep, creative projects, and college
-          applications. At your home, the library, or online.
+          Private tutoring and outside-the-box learning, from toddlers to
+          seniors. Academic subjects, test prep, college applications, life
+          skills, and creative projects. At your home, the library, or online.
         </p>
         <div className="cta-group fade-up delay-3">
           <Link href="/contact" className="btn btn-primary">

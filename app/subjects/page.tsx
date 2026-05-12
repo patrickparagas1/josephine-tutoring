@@ -6,7 +6,7 @@ import Services from "@/components/Services";
 export const metadata: Metadata = {
   title: "Subjects · Josephine Tutoring",
   description:
-    "Academic subjects, test prep, creative projects, and college application help from kindergarten through 12th grade.",
+    "Academic subjects, test prep, college applications, life skills, and creative projects — from toddlers to seniors.",
 };
 
 export default function SubjectsPage() {
