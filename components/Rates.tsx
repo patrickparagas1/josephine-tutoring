@@ -23,7 +23,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $70<span>/hr</span>
+            $85<span>/hr</span>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $75<span>/hr</span>
+            $90<span>/hr</span>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $85<span>/hr</span>
+            $100<span>/hr</span>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $95<span>/hr</span>
+            $120<span>/hr</span>
           </div>
         </div>
 
@@ -73,7 +73,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $120<span>/hr</span>
+            $150<span>/hr</span>
           </div>
         </div>
 
@@ -88,7 +88,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $150<span>/hr</span>
+            $175<span>/hr</span>
           </div>
         </div>
 
