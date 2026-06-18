@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
       <div className="hero-text">
         <div className="hero-eyebrow fade-up">
-          Private Tutoring · Irvine, CA
+          Private Tutoring · Newport Beach &amp; Irvine, CA
         </div>
         <h1 className="fade-up delay-1">
           Patient help

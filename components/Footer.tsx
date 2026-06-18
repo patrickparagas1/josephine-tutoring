@@ -11,7 +11,7 @@ export default function Footer() {
               Patient, personalized tutoring. Toddlers to seniors, in your
               home, the library, or online.
             </p>
-            <p className="footer-brand-meta">Irvine, California</p>
+            <p className="footer-brand-meta">Serving Newport Beach &amp; Irvine, CA</p>
           </div>
           <div className="footer-col">
             <div className="footer-col-label">Reach me</div>
