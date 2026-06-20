@@ -9,33 +9,30 @@ export default function Rates() {
           No contracts.
         </h2>
         <p className="rates-intro">
-          Pay per session. Packages are optional and save a little for
-          families booking regularly. Specialty coaching is priced separately to reflect the extra
-          prep work behind it. The first 15 minute consultation is always
-          free.
+          Pay per session. No contracts. The first 15-minute consultation is always free. Packages are available for families booking regularly.
         </p>
 
         <div className="rate-row">
           <div>
-            <div className="rate-label">Little Ones · Ages 18 months to 4</div>
+            <div className="rate-label">Little Ones · Not yet in kindergarten</div>
             <div className="rate-desc">
               One hour session · in person
             </div>
           </div>
           <div className="rate-price">
-            $85<span>/hr</span>
+            $95<span>/hr</span>
           </div>
         </div>
 
         <div className="rate-row">
           <div>
-            <div className="rate-label">Elementary · Grades K to 5</div>
+            <div className="rate-label">Elementary · Kindergarten through Grade 5</div>
             <div className="rate-desc">
               One hour session · in person or online
             </div>
           </div>
           <div className="rate-price">
-            $90<span>/hr</span>
+            $95<span>/hr</span>
           </div>
         </div>
 
@@ -69,7 +66,7 @@ export default function Rates() {
               Test Prep &amp; Strategy
             </div>
             <div className="rate-desc">
-              One hour session · in person or online
+              SAT, ACT, ISEE, and academic strategy · all ages · in person or online
             </div>
           </div>
           <div className="rate-price">
