@@ -121,7 +121,7 @@ export default function BookingForm() {
                 <option value="" disabled>
                   How would you like to meet?
                 </option>
-                <option value="At your home">At your home</option>
+                <option value="At my home">At my home</option>
                 <option value="At a library or cafe">
                   At a library or café
                 </option>
