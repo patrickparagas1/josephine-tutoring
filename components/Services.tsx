@@ -41,7 +41,7 @@ export default function Services() {
             id: "middle-school",
             num: "03",
             title: "Middle School · Grades 6 to 8",
-            items: ["Prealgebra & Algebra", "Reading & Vocabulary", "Essay Writing", "Science & History", "Organization & Planning"],
+            items: ["Prealgebra & Algebra", "Reading & Vocabulary", "Essay Writing", "Science", "History", "Organization & Planning"],
           },
           {
             id: "high-school",
