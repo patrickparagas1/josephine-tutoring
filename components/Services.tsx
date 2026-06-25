@@ -29,13 +29,13 @@ export default function Services() {
             id: "little-ones",
             num: "01",
             title: "Little Ones · Ages 18 months to 4",
-            items: ["Pre-Reading And Storytelling", "Creative Play And Expression", "Art Projects And Fine Motor Skills", "Social And Emotional Engagement", "Music Appreciation, Movement, And Listening"],
+            items: ["Pre-Reading And Storytelling", "Creative Play And Expression", "Art Projects And Fine Motor Skills", "Science Experiments", "Social And Emotional Engagement", "Music Appreciation, Movement, And Listening"],
           },
           {
             id: "elementary",
             num: "02",
             title: "Elementary · Grades K to 5",
-            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Cursive & Penmanship", "Homework Help & Study Habits", "Creative Projects"],
+            items: ["Reading Fluency & Comprehension", "Writing & Spelling", "Math Foundations", "Science Experiments", "Cursive & Penmanship", "Homework Help & Study Habits", "Creative Projects"],
           },
           {
             id: "middle-school",
@@ -47,7 +47,7 @@ export default function Services() {
             id: "high-school",
             num: "04",
             title: "High School · Grades 9 to 12",
-            items: ["Algebra, Geometry, Precalculus", "English & Essay Coaching", "History Subjects", "Study Organization & Time Management"],
+            items: ["Algebra, Geometry, Precalculus", "Literature", "Reading & Writing", "History Subjects", "Homework & Project Help", "Exam Review", "Study Organization & Time Management"],
           },
           {
             id: "test-prep",

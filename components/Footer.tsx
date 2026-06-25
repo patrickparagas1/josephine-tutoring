@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <span>
-            Crafted with care in Newport Beach, California
+            Crafted with <em style={{color: "#d4b05b", fontStyle: "normal"}}>care</em>
           </span>
           <span className="footer-bottom-sep" aria-hidden="true">
             ·
