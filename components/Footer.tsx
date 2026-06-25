@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <span>
-            Made with <em>care</em> in Irvine, California
+            Crafted with care in Newport Beach, California
           </span>
           <span className="footer-bottom-sep" aria-hidden="true">
             ·
