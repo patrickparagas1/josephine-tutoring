@@ -27,20 +27,10 @@ export default function Hero() {
           <br />
           of learner.
         </h1>
-        <p className="hero-lede fade-up delay-2">
-          <span className="lede-line">✎ Personalized tutoring, from pre-K to 12th grade.</span>
-          <br />
-          <span className="lede-line">✎ Academic subjects, exam &amp; college prep, life skills, and creative projects.</span>
-          <br />
-          <span className="lede-line">✎ At your home, the library, or online.</span>
-        </p>
-        <div className="cta-group fade-up delay-3">
+        <div className="cta-group fade-up delay-2">
           <Link href="/contact" className="btn btn-primary">
             Book a free consultation
             <span className="arrow">→</span>
-          </Link>
-          <Link href="/rates" className="btn btn-secondary">
-            See rates
           </Link>
         </div>
       </div>
