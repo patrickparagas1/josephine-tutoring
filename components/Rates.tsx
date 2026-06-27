@@ -9,7 +9,7 @@ export default function Rates() {
           No contracts.
         </h2>
         <p className="rates-intro">
-          Pay per session. No contracts. The first 15-minute consultation is always free.
+          Pay per session. The first 15-minute consultation is always free.
         </p>
 
         <div className="rate-row">
