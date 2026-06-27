@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
       <div className="hero-text">
         <div className="hero-eyebrow fade-up">
-          Private Educator · Irvine &amp; the Orange County Coast
+          Serving Irvine &amp; the Orange County Coast
         </div>
         <h1 className="fade-up delay-1">
           Patient help
