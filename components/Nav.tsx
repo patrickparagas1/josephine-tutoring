@@ -94,7 +94,10 @@ export default function Nav() {
             </text>
           </svg>
         </span>
-        <span className="logo-text">Josephine the Tutor</span>
+        <span className="logo-text">
+          Josephine the Tutor
+          <span className="logo-tagline">Premier Private Educator</span>
+        </span>
       </Link>
 
       <button

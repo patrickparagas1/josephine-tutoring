@@ -290,6 +290,17 @@ nav {
 .logo-text {
   white-space: nowrap;
   color: var(--accent);
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+.logo-tagline {
+  font-size: 0.6rem;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  font-weight: 500;
+  line-height: 1;
 }
 @media (max-width: 900px) {
   .logo-text { font-size: 1.1rem; }
