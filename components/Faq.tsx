@@ -16,16 +16,8 @@ const FAQ_ITEMS = [
     a: "Yes. SAT and ACT strategy, study lifestyle training, and study skills coaching for students at all levels. The focus is on building habits that hold up beyond the test, not just drilling.",
   },
   {
-    q: "What is the sibling discount?",
-    a: "If two students from the same family are working with me, the second student gets 15 percent off every session. The discount applies for as long as both are enrolled.",
-  },
-  {
     q: "What is the cancellation policy?",
     a: "Cancellations with 48 hours notice are free. Things come up, and the policy is built to be reasonable. Patterns of last minute cancellations we will talk about together if they happen.",
-  },
-  {
-    q: "Do you tutor very young children?",
-    a: "Yes. I work with little ones from 18 months through 4 years on early learning, pre reading, art projects, and play based enrichment. The pacing and structure are very different from older students.",
   },
   {
     q: "How do I pay?",
