@@ -2046,7 +2046,7 @@ footer em,
   margin-top: auto;
 }
 @media (max-width: 900px) {
-  .testimonials-page { padding: 9rem 1.5rem 5rem; }
+  .testimonials-page { padding: 13rem 1.5rem 5rem; }
   .testimonials-collage { columns: 2; }
 }
 @media (max-width: 600px) {
