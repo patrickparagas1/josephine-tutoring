@@ -22,13 +22,13 @@ export const metadata: Metadata = {
     template: "%s · Josephine Tutoring",
   },
   description:
-    "Patient, personalized tutoring in Irvine and along the Orange County coast — from toddlers to seniors. Academic subjects, test prep, college applications, life skills, and creative projects. At home or online.",
+    "Patient, personalized tutoring in Irvine and along the Orange County coast — from pre-K to 12th grade. Academic subjects, test prep, college applications, and creative projects. At home or online.",
   openGraph: {
     type: "website",
     url: "/",
     title: "Josephine · Private Tutoring in Irvine & Orange County & Orange County",
     description:
-      "Patient, personalized tutoring from toddlers to seniors. Academic subjects, test prep, college applications, life skills, and creative projects. At home or online.",
+      "Patient, personalized tutoring from pre-K to 12th grade. Academic subjects, test prep, college applications, and creative projects. At home or online.",
     siteName: "Josephine Tutoring",
     locale: "en_US",
   },
@@ -76,7 +76,7 @@ const businessSchema = {
   telephone: "+1-949-393-9913",
   email: "josephinethetutor@gmail.com",
   description:
-    "Patient, personalized tutoring in Irvine and along the Orange County coast — from toddlers to seniors. Academic subjects, test prep, college applications, life skills, and creative projects.",
+    "Patient, personalized tutoring in Irvine and along the Orange County coast — from pre-K to 12th grade. Academic subjects, test prep, college applications, and creative projects.",
   areaServed: [
     { "@type": "City", name: "Irvine" },
     { "@type": "City", name: "Newport Beach" },

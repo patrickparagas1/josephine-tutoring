@@ -31,7 +31,7 @@ export default function Hero() {
           of learner.
         </h1>
         <p className="hero-lede fade-up delay-2">
-          <span className="lede-line">✎ Personalized tutoring, from toddlers to seniors.</span>
+          <span className="lede-line">✎ Personalized tutoring, from pre-K to 12th grade.</span>
           <br />
           <span className="lede-line">✎ Academic subjects, exam &amp; college prep, life skills, and creative projects.</span>
           <br />
