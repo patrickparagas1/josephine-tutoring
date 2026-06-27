@@ -574,7 +574,7 @@ section {
   background: var(--cream);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  padding-top: 10rem;
+  padding-top: 13rem;
   padding-bottom: 8rem;
 }
 .about-grid {
@@ -818,7 +818,7 @@ section {
   color: var(--ink);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  padding-top: 10rem;
+  padding-top: 13rem;
 }
 .rates .section-eyebrow { color: var(--accent); }
 .rates .section-title em { color: var(--accent); }
@@ -952,7 +952,7 @@ section {
   background: var(--cream-dark);
   border-top: 1px solid var(--line);
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 13rem;
 }
 .contact-inner {
   max-width: 760px;
@@ -1417,7 +1417,7 @@ footer em,
 /* BLOG */
 .blog-wrap,
 .post-wrap {
-  padding: 3rem 3rem 6rem;
+  padding: 13rem 3rem 6rem;
   position: relative;
   z-index: 2;
 }

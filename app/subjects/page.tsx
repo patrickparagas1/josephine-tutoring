@@ -13,7 +13,7 @@ export default function SubjectsPage() {
   return (
     <>
       <Nav />
-      <main id="main-content" style={{ paddingTop: "4rem" }}>
+      <main id="main-content" style={{ paddingTop: "7rem" }}>
         <Services />
       </main>
       <Footer />
