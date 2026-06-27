@@ -527,6 +527,30 @@ section {
 }
 
 /* ABOUT */
+/* ── Credentials Bar ── */
+.credentials-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 0.5rem;
+  width: 100%;
+  padding: 0.85rem 1.5rem;
+  background: var(--cream-dark);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.72rem;
+  font-variant: small-caps;
+  letter-spacing: 0.09em;
+  color: var(--muted);
+  font-weight: 500;
+}
+.credentials-dot {
+  color: var(--line);
+  font-variant: normal;
+  font-size: 0.85rem;
+}
+
 .about {
   background: var(--cream);
   border-top: 1px solid var(--line);

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Ornament from "@/components/Ornament";
 import TestimonialSlider from "@/components/TestimonialSlider";
+import CredentialsBar from "@/components/CredentialsBar";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Nav />
       <main id="main-content">
       <Hero />
+      <CredentialsBar />
        <TestimonialSlider />
         <section className="home-gallery">
         <div className="home-gallery-header">
