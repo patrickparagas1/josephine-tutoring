@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <>
       <Nav />
+      <CredentialsBar />
       <main id="main-content">
       <Hero />
-      <CredentialsBar />
        <TestimonialSlider />
         <section className="home-gallery">
         <div className="home-gallery-header">
