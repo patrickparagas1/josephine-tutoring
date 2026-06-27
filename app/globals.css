@@ -233,13 +233,17 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  padding: 1rem 3rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   z-index: 100;
   background: rgba(253, 247, 222, 0.92);
   backdrop-filter: blur(10px);
+}
+.nav-main-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
   border-bottom: 1px solid var(--line);
 }
 .nav-links a.nav-cta {
@@ -1293,7 +1297,7 @@ footer em,
 }
 
 @media (max-width: 900px) {
-  nav { padding: 1rem 1.5rem; }
+  .nav-main-row { padding: 1rem 1.5rem; }
   .nav-toggle { display: flex; }
   .nav-links {
     position: fixed;

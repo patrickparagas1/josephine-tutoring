@@ -25,6 +25,7 @@ export default function Nav() {
 
   return (
     <nav>
+      <div className="nav-main-row">
       <Link
         href="/"
         className="logo"
@@ -144,6 +145,16 @@ export default function Nav() {
           </Link>
         </li>
       </ul>
+      </div>
+      <div className="credentials-bar">
+        <span>Wellesley College</span>
+        <span className="credentials-dot">·</span>
+        <span>Georgetown University</span>
+        <span className="credentials-dot">·</span>
+        <span>10+ Years Experience</span>
+        <span className="credentials-dot">·</span>
+        <span>International Educator</span>
+      </div>
     </nav>
   );
 }

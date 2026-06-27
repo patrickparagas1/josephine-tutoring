@@ -5,19 +5,16 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Ornament from "@/components/Ornament";
 import TestimonialSlider from "@/components/TestimonialSlider";
-import CredentialsBar from "@/components/CredentialsBar";
-
 export default function Home() {
   return (
     <>
       <Nav />
-      <CredentialsBar />
       <main id="main-content">
       <Hero />
        <TestimonialSlider />
         <section className="home-gallery">
         <div className="home-gallery-header">
-          <div className="section-eyebrow">What I help with</div>
+          <div className="section-eyebrow">What I Design</div>
           <h2 className="section-title">
             Every grade. <em>Every kind</em> of learner.
           </h2>
