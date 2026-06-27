@@ -9,7 +9,7 @@ export default function Rates() {
           No contracts.
         </h2>
         <p className="rates-intro">
-          Pay per session. No contracts. The first 15-minute consultation is always free. Packages are available for families booking regularly.
+          Pay per session. No contracts. The first 15-minute consultation is always free.
         </p>
 
         <div className="rate-row">
@@ -103,7 +103,6 @@ export default function Rates() {
 
         <div className="rates-note">
           Honesty is a form of respect, so the rates are what you see.
-          Sibling discount: 15% off a second student&apos;s sessions.
           Referral bonus: $50 credit when a friend books their first
           session. Cancellations with 48 hours&apos; notice are free.
         </div>
