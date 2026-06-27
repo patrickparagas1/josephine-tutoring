@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="footer-col footer-brand">
             <div className="footer-brand-name">Josephine the Tutor</div>
             <p className="footer-brand-tagline">
-              Newport Beach&apos;s Premier Private Educator
+              Newport Beach&apos;s Premier K-12 Private Educator
             </p>
             <p className="footer-brand-meta">Serving Irvine &amp; the Orange County Coast</p>
           </div>

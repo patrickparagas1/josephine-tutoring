@@ -97,7 +97,7 @@ export default function Nav() {
         </span>
         <span className="logo-text">
           Josephine the Tutor
-          <span className="logo-tagline">Premier Private Educator</span>
+          <span className="logo-tagline">Premier K-12 Private Educator</span>
         </span>
       </Link>
 
