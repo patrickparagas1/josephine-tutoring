@@ -551,17 +551,17 @@ section {
   gap: 0 0.5rem;
   width: 100%;
   padding: 0.85rem 1.5rem;
-  background: var(--cream-dark);
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  background: var(--ink);
+  border-top: none;
+  border-bottom: none;
   font-size: 0.72rem;
   font-variant: small-caps;
   letter-spacing: 0.09em;
-  color: var(--muted);
+  color: rgba(253, 247, 222, 0.75);
   font-weight: 500;
 }
 .credentials-dot {
-  color: var(--line);
+  color: rgba(253, 247, 222, 0.3);
   font-variant: normal;
   font-size: 0.85rem;
 }
