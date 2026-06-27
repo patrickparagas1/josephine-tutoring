@@ -20,7 +20,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $90<span>/hr</span>
+            $95<span>/hr</span>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $95<span>/hr</span>
+            $100<span>/hr</span>
           </div>
         </div>
 
@@ -44,7 +44,7 @@ export default function Rates() {
             </div>
           </div>
           <div className="rate-price">
-            $100<span>/hr</span>
+            $110<span>/hr</span>
           </div>
         </div>
 
@@ -93,11 +93,23 @@ export default function Rates() {
           <div>
             <div className="rate-label">Violin Lessons</div>
             <div className="rate-desc">
-              30 minute session · in person or online
+              30 min session · in person or online
             </div>
           </div>
           <div className="rate-price">
-            $45<span>/30min</span>
+            $55<span>/30min</span>
+          </div>
+        </div>
+
+        <div className="rate-row">
+          <div>
+            <div className="rate-label">Violin Lessons</div>
+            <div className="rate-desc">
+              45 min session · in person or online
+            </div>
+          </div>
+          <div className="rate-price">
+            $80<span>/45min</span>
           </div>
         </div>
 
