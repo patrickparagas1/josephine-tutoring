@@ -1356,7 +1356,7 @@ footer em,
     padding-top: 9rem;
     gap: 1.5rem;
   }
-  .hero-visual-wrap { max-width: 320px; }
+  .hero-visual-wrap { max-width: 320px; margin-top: 3.5rem; }
   section { padding: 4rem 1.5rem; }
   .about-grid {
     display: flex;
