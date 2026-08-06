@@ -1,7 +1,7 @@
 const FAQ_ITEMS = [
   {
     q: "Where do sessions happen?",
-    a: "Most often at your home, where students feel most comfortable. I also meet at libraries across Orange County, including Heritage Park, University Park, and others closer to your family. Online sessions over video work well too. Whatever fits your student best.",
+    a: "Most often at your home. I can also meet at public libraries across Orange County. Online sessions over video work well too. Whatever fits your student best.",
   },
   {
     q: "How long is each session?",
@@ -9,11 +9,11 @@ const FAQ_ITEMS = [
   },
   {
     q: "What if my student is shy or unsure at first?",
-    a: "Most students are. The first 15 minutes are usually about getting comfortable rather than diving in. There is no pressure to perform, and I follow the student's pace. Confidence is part of the work.",
+    a: "Most students are. There is no pressure to perform, and I follow the student's pace. Confidence is part of the work.",
   },
   {
     q: "Do you offer test prep?",
-    a: "Yes. SAT and ACT strategy, study lifestyle training, and study skills coaching for students at all levels. The focus is on building habits that hold up beyond the test, not just drilling.",
+    a: "Yes. SAT, ACT, PSAT, ISEE, and High School Placement Test (HSPT) strategy, study lifestyle training, and study skills coaching for students at all levels. The focus is on building habits that hold up beyond the test, not just drilling.",
   },
   {
     q: "What is the cancellation policy?",

@@ -833,6 +833,16 @@ section {
   font-weight: 300;
   max-width: 60ch;
 }
+.rates-note-top {
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  background: var(--cream);
+  border-left: 2px solid var(--accent);
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.6;
+}
 .rate-row {
   display: grid;
   grid-template-columns: 1fr auto;

@@ -2,6 +2,9 @@ export default function Rates() {
   return (
     <section className="rates" id="rates">
       <div className="rates-inner">
+        <div className="rates-note-top">
+          Rate is based on curriculum level taught, not enrolled grade level.
+        </div>
         <div className="section-eyebrow">Simple, transparent pricing</div>
         <h2 className="section-title">
           Honest <em>rates</em>.
