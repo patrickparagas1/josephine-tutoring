@@ -837,9 +837,6 @@ section {
 }
 .rates-note-top {
   margin-bottom: 2.75rem;
-  padding: 1rem 1.5rem;
-  background: var(--cream);
-  border-left: 2px solid var(--accent);
   font-size: 0.92rem;
   color: var(--ink-soft);
   font-style: italic;
