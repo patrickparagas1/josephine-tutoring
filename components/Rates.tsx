@@ -12,7 +12,9 @@ export default function Rates() {
           No contracts.
         </h2>
         <p className="rates-intro">
-          Pay per session. The first 15-minute consultation is always free.
+          Sessions are billed per session by default. Recurring weekly
+          students may be invoiced monthly for convenience. The first
+          15-minute consultation is always free.
         </p>
 
         <div className="rate-row">
