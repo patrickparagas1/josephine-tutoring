@@ -826,15 +826,17 @@ section {
   max-width: 900px;
   margin: 0 auto;
 }
+.rates-inner .section-eyebrow { margin-bottom: 1.25rem; }
+.rates-inner .section-title { margin-bottom: 2rem; }
 .rates-intro {
   color: var(--ink-soft);
   font-size: 1.1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
   font-weight: 300;
   max-width: 60ch;
 }
 .rates-note-top {
-  margin-bottom: 2rem;
+  margin-bottom: 2.75rem;
   padding: 1rem 1.5rem;
   background: var(--cream);
   border-left: 2px solid var(--accent);
