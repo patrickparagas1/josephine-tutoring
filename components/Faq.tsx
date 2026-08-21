@@ -5,7 +5,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "How long is each session?",
-    a: "It depends on your student's goals. Most families start with a one hour session. We can adjust the length if it would help.",
+    a: "It depends on your student's goals. Most families start with a one hour session.",
   },
   {
     q: "What if my student is shy or unsure at first?",
