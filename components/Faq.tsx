@@ -17,7 +17,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "What is the cancellation policy?",
-    a: "Cancellations with 48 hours notice are free. Things come up, and the policy is built to be reasonable. Patterns of last minute cancellations we will talk about together if they happen.",
+    a: "Sessions require 48 hours' notice to cancel or reschedule, or they're billed in full. Illness is exempt — cancel or reschedule anytime with no penalty if your child is unwell. If cancellations become a recurring pattern, we'll discuss adjusting the arrangement together.",
   },
   {
     q: "How do I pay?",
