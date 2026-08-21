@@ -272,13 +272,13 @@ export default function BookingForm() {
 
           <div className="form-field">
             <label htmlFor="referral">
-              How did you hear about me?{" "}
-              <span className="optional">(optional)</span>
+              How did you hear about me? <span className="req">*</span>
             </label>
             <input
               type="text"
               id="referral"
               name="referral"
+              required
               placeholder="Friend, Google, flyer, Nextdoor"
             />
           </div>
