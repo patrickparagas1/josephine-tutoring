@@ -70,7 +70,7 @@ export default function Rates() {
               Test Prep &amp; Strategy
             </div>
             <div className="rate-desc">
-              SAT, ACT, ISEE, and academic strategy · all ages · in person or online
+              SAT, ACT, ISEE, HSPT, and academic strategy · all ages · in person or online
             </div>
           </div>
           <div className="rate-price">
