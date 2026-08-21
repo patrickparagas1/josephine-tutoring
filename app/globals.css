@@ -831,16 +831,18 @@ section {
 .rates-intro {
   color: var(--ink-soft);
   font-size: 1.1rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 0.75rem;
   font-weight: 300;
   max-width: 60ch;
 }
-.rates-note-top {
-  margin-bottom: 2.75rem;
-  font-size: 0.92rem;
+.rates-caption {
+  margin-bottom: 3.5rem;
+  font-size: 0.82rem;
   color: var(--ink-soft);
+  opacity: 0.75;
   font-style: italic;
-  line-height: 1.6;
+  line-height: 1.5;
+  max-width: 60ch;
 }
 .rate-row {
   display: grid;
