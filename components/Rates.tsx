@@ -10,8 +10,7 @@ export default function Rates() {
         </h2>
         <p className="rates-intro">
           Sessions are billed per session by default. Recurring weekly
-          students may be invoiced monthly for convenience. The first
-          15-minute consultation is always free.
+          students may be invoiced monthly for convenience.
         </p>
         <div className="rates-caption">
           Rate is based on curriculum level taught, not enrolled grade level.
