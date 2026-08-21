@@ -31,9 +31,9 @@ export default function Faq() {
       <section className="faq" id="faq">
         <div className="faq-inner">
           <div className="section-eyebrow">Common questions</div>
-          <h2 className="section-title">
+          <h1 className="section-title">
             A few things parents <em>often ask</em>.
-          </h2>
+          </h1>
           <div className="faq-list">
             {FAQ_ITEMS.map((item) => (
               <details key={item.q} className="faq-item">

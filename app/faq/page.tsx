@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import BookingForm from "@/components/BookingForm";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Book a Consultation · Josephine Tutoring",
+  title: "FAQ · Josephine Tutoring",
   description:
-    "Book a free 15 minute consultation with Josephine. Private tutoring in Irvine, in person or online.",
+    "Answers to the questions parents ask most about sessions, scheduling, test prep, and payment.",
 };
 
-export default function ContactPage() {
+export default function FaqPage() {
   return (
     <>
       <Nav />
       <main id="main-content">
-        <BookingForm />
+        <Faq />
       </main>
       <Footer />
     </>

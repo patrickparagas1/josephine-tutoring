@@ -1679,10 +1679,11 @@ footer em,
 
 /* FAQ */
 .faq {
-  padding: 6rem 3rem 7rem;
+  padding: 13rem 3rem 7rem;
   position: relative;
   z-index: 2;
   border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 .faq-inner {
   max-width: 760px;
@@ -1738,7 +1739,7 @@ footer em,
   max-width: 64ch;
 }
 @media (max-width: 900px) {
-  .faq { padding: 4rem 1.5rem 5rem; }
+  .faq { padding: 13rem 1.5rem 5rem; }
   .faq-question { font-size: 1.05rem; }
 }
 
