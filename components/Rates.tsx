@@ -85,7 +85,7 @@ export default function Rates() {
               <span className="rate-badge">specialty</span>
             </div>
             <div className="rate-desc">
-              90 minute session · in person or online
+              60 minute session · in person or online
             </div>
           </div>
           <div className="rate-price">
