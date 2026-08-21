@@ -62,6 +62,9 @@ body::before {
   body {
     background-size: cover;
   }
+  body:has(.faq) {
+    background-image: none;
+  }
 }
 
 .home-gallery {
