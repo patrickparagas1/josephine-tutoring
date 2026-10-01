@@ -20,8 +20,12 @@ const FAQ_ITEMS = [
     a: "Sessions require 48 hours' notice to cancel or reschedule, or they're billed in full. Illness is exempt — cancel or reschedule anytime with no penalty if your child is unwell. If cancellations become a recurring pattern, we'll discuss adjusting the arrangement together.",
   },
   {
+    q: "Do you require a deposit for multi-session programs?",
+    a: "Yes. Multi-session programs require a 25% non-refundable deposit at booking. It reserves your dates and covers lesson planning, and it's applied to your total. The balance is due before the first session. Need to reschedule? Give 48 hours' notice before your first session, and your deposit carries over to the new dates.",
+  },
+  {
     q: "How do I pay?",
-    a: "Pay per session, or in small packages if you prefer. I will share specifics once we talk and figure out the right fit. No contracts.",
+    a: "Pay per session, or in small packages if you prefer. Multi-session programs require a 25% deposit at booking. I will share specifics once we talk and figure out the right fit. No contracts.",
   },
 ];
 
